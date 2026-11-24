@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShiftClose formatVersion="2.1" storeId="BL01" businessDate="2026-10-05" shiftNo="2" closed="2026-10-05 21:04:31">
+  <Tenders>
+    <Tender type="ACCOUNT" count="1" amount="74.57"/>
+    <Tender type="CARD" count="51" amount="660.25"/>
+    <Tender type="CASH" count="18" amount="277.82"/>
+    <Tender type="GIFT" count="1" amount="6.22"/>
+    <Tender type="MOBILE" count="14" amount="195.08"/>
+  </Tenders>
+  <GiftCards loadCount="0" loadAmount="0.00"/>
+  <CashDrops count="1" amount="150.00" cancelledCount="0"/>
+  <Exceptions lineVoids="3" lineVoidAmount="9.77" cancelledTransactions="0" cancelledAmount="0.00" refunds="0" refundAmount="0.00" noSales="0"/>
+  <Cash openingFloat="300.00" countedCash="427.82"/>
+  <AccountCharges>
+    <Charge account="BA-0002" seq="101038" amount="74.57"/>
+  </AccountCharges>
+</ShiftClose>

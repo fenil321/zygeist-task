@@ -1,0 +1,51 @@
+{
+  "schema": "shift/3.0",
+  "store": "BL01",
+  "businessDay": "2026-10-14",
+  "shiftNo": 2,
+  "closedAt": "2026-10-14T21:04:57-07:00",
+  "payments": [
+    {
+      "method": "card",
+      "count": 53,
+      "amountMinor": 68507
+    },
+    {
+      "method": "cash",
+      "count": 21,
+      "amountMinor": 29438
+    },
+    {
+      "method": "gift",
+      "count": 3,
+      "amountMinor": 4429
+    },
+    {
+      "method": "mobile",
+      "count": 13,
+      "amountMinor": 18395
+    }
+  ],
+  "giftCards": {
+    "loads": 1,
+    "loadAmountMinor": 2500
+  },
+  "cashDrops": {
+    "count": 2,
+    "amountMinor": 30000,
+    "cancelled": 0
+  },
+  "exceptions": {
+    "lineVoids": 3,
+    "lineVoidAmountMinor": 773,
+    "cancelledTransactions": 1,
+    "cancelledAmountMinor": 1464,
+    "refunds": 2,
+    "refundAmountMinor": -1411,
+    "noSales": 1
+  },
+  "cash": {
+    "openingFloatMinor": 30000,
+    "countedMinor": 29438
+  }
+}

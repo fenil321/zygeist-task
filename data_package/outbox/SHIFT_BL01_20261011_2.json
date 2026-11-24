@@ -1,0 +1,63 @@
+{
+  "schema": "shift/3.0",
+  "store": "BL01",
+  "businessDay": "2026-10-11",
+  "shiftNo": 2,
+  "closedAt": "2026-10-11T21:04:46-07:00",
+  "payments": [
+    {
+      "method": "account",
+      "count": 1,
+      "amountMinor": 3252
+    },
+    {
+      "method": "card",
+      "count": 64,
+      "amountMinor": 79339
+    },
+    {
+      "method": "cash",
+      "count": 21,
+      "amountMinor": 35254
+    },
+    {
+      "method": "gift",
+      "count": 5,
+      "amountMinor": 4290
+    },
+    {
+      "method": "mobile",
+      "count": 12,
+      "amountMinor": 13062
+    }
+  ],
+  "giftCards": {
+    "loads": 2,
+    "loadAmountMinor": 12500
+  },
+  "cashDrops": {
+    "count": 2,
+    "amountMinor": 30000,
+    "cancelled": 2
+  },
+  "exceptions": {
+    "lineVoids": 18,
+    "lineVoidAmountMinor": 5411,
+    "cancelledTransactions": 3,
+    "cancelledAmountMinor": 2631,
+    "refunds": 1,
+    "refundAmountMinor": -356,
+    "noSales": 8
+  },
+  "cash": {
+    "openingFloatMinor": 30000,
+    "countedMinor": 35254
+  },
+  "accountCharges": [
+    {
+      "accountId": "BA-0003",
+      "sequenceNo": 102378,
+      "amountMinor": 3252
+    }
+  ]
+}

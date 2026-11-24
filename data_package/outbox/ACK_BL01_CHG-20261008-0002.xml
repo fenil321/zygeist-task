@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChangeAck changeId="CHG-20261008-0002" storeId="BL01" processed="2026-10-08 06:44:02" result="PARTIAL">
+  <ItemResult code="200000001056" variant="" action="update" result="REJECTED" errorCode="E312" message="Variant is required. Send 000 for the base item."/>
+  <ItemResult code="085612000303" variant="000" action="update" result="REJECTED" errorCode="E315" message="Description longer than 24 characters."/>
+  <ItemResult code="200000002084" variant="000" action="update" result="APPLIED"/>
+</ChangeAck>

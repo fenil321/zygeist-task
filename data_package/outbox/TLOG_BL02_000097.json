@@ -1,0 +1,1370 @@
+{
+  "schema": "tlog/3.0",
+  "store": "BL02",
+  "businessDay": "2026-10-14",
+  "batch": {
+    "seq": 97,
+    "createdAt": "2026-10-14T18:00:41-07:00",
+    "records": 19
+  },
+  "transactions": [
+    {
+      "sequenceNo": 501985,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T16:11:45-07:00",
+      "endedAt": "2026-10-14T16:14:01-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000001117",
+          "variant": "000",
+          "text": "Chai Latte 12oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 435,
+          "extendedMinor": 435,
+          "taxCode": "T2",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "200000002015",
+          "variant": "000",
+          "text": "Butter Croissant",
+          "department": "012",
+          "quantity": "1",
+          "unitPriceMinor": 325,
+          "extendedMinor": 325,
+          "taxCode": "T2",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T2",
+          "taxableMinor": 760,
+          "taxMinor": 72
+        }
+      ],
+      "payments": [
+        {
+          "method": "mobile",
+          "amountMinor": 832,
+          "wallet": "APPLE_PAY"
+        }
+      ],
+      "totals": {
+        "netMinor": 760,
+        "taxMinor": 72,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 832
+      }
+    },
+    {
+      "sequenceNo": 501986,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T16:25:51-07:00",
+      "endedAt": "2026-10-14T16:26:45-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "049000000634",
+          "variant": "000",
+          "text": "Diet Cola 20oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 229,
+          "extendedMinor": 229,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "200000090029",
+          "variant": "000",
+          "text": "Bottle Deposit",
+          "department": "051",
+          "quantity": "1",
+          "unitPriceMinor": 10,
+          "extendedMinor": 10,
+          "taxCode": "T0",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 10,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 229,
+          "taxMinor": 18
+        }
+      ],
+      "payments": [
+        {
+          "method": "cash",
+          "amountMinor": 257,
+          "tenderedMinor": 300,
+          "changeMinor": 43
+        }
+      ],
+      "totals": {
+        "netMinor": 239,
+        "taxMinor": 18,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 257
+      }
+    },
+    {
+      "sequenceNo": 501987,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T16:32:16-07:00",
+      "endedAt": "2026-10-14T16:34:46-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "051500123454",
+          "variant": "000",
+          "text": "Strawberry Jam 12oz",
+          "department": "021",
+          "quantity": "1",
+          "unitPriceMinor": 379,
+          "extendedMinor": 379,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "072060008159",
+          "variant": "000",
+          "text": "Canned Tomatoes 28oz",
+          "department": "021",
+          "quantity": "1",
+          "unitPriceMinor": 249,
+          "extendedMinor": 249,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "037000006169",
+          "variant": "000",
+          "text": "Dish Soap 16oz",
+          "department": "040",
+          "quantity": "1",
+          "unitPriceMinor": 379,
+          "extendedMinor": 379,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 4,
+          "lineType": "item",
+          "sku": "200000090012",
+          "variant": "000",
+          "text": "Paper Bag Fee",
+          "department": "050",
+          "quantity": "1",
+          "unitPriceMinor": 10,
+          "extendedMinor": 10,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 628,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 389,
+          "taxMinor": 31
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 1048,
+          "network": "AMEX",
+          "panSuffix": "9008",
+          "approval": "433396"
+        }
+      ],
+      "totals": {
+        "netMinor": 1017,
+        "taxMinor": 31,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1048
+      }
+    },
+    {
+      "sequenceNo": 501988,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T16:39:26-07:00",
+      "endedAt": "2026-10-14T16:41:25-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "070420005169",
+          "variant": "000",
+          "text": "Butter Salted 1lb",
+          "department": "022",
+          "quantity": "1",
+          "unitPriceMinor": 529,
+          "extendedMinor": 529,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "051500241301",
+          "variant": "000",
+          "text": "Peanut Butter 16oz",
+          "department": "021",
+          "quantity": "3",
+          "unitPriceMinor": 399,
+          "extendedMinor": 1197,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "200000040871",
+          "variant": "000",
+          "text": "Roma Tomatoes per lb",
+          "department": "023",
+          "quantity": "1.314",
+          "unitPriceMinor": 179,
+          "extendedMinor": 235,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 4,
+          "lineType": "item",
+          "sku": "200000004019",
+          "variant": "000",
+          "text": "Sourdough Loaf",
+          "department": "021",
+          "quantity": "1",
+          "unitPriceMinor": 599,
+          "extendedMinor": 599,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 5,
+          "lineType": "item",
+          "sku": "070420003202",
+          "variant": "000",
+          "text": "Greek Yogurt Plain 32oz",
+          "department": "022",
+          "quantity": "1",
+          "unitPriceMinor": 599,
+          "extendedMinor": 599,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 6,
+          "lineType": "item",
+          "sku": "070420000645",
+          "variant": "000",
+          "text": "Whole Milk Half Gallon",
+          "department": "022",
+          "quantity": "1",
+          "unitPriceMinor": 349,
+          "extendedMinor": 349,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 7,
+          "lineType": "item",
+          "sku": "037000002017",
+          "variant": "000",
+          "text": "Paper Towels 2 Roll",
+          "department": "040",
+          "quantity": "1",
+          "unitPriceMinor": 499,
+          "extendedMinor": 499,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 3508,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 499,
+          "taxMinor": 40
+        }
+      ],
+      "payments": [
+        {
+          "method": "gift",
+          "amountMinor": 2000,
+          "cardSuffix": "8668"
+        },
+        {
+          "method": "card",
+          "amountMinor": 2047,
+          "network": "MC",
+          "panSuffix": "3004",
+          "approval": "628531"
+        }
+      ],
+      "totals": {
+        "netMinor": 4007,
+        "taxMinor": 40,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 4047
+      }
+    },
+    {
+      "sequenceNo": 501989,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T16:39:52-07:00",
+      "endedAt": "2026-10-14T16:40:59-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "089112007503",
+          "variant": "000",
+          "text": "Cabernet 750ml",
+          "department": "030",
+          "quantity": "1",
+          "unitPriceMinor": 1449,
+          "extendedMinor": 1449,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "722240000151",
+          "variant": "000",
+          "text": "Protein Bar Choc PB",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 299,
+          "extendedMinor": 299,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 1748,
+          "taxMinor": 140
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 1888,
+          "network": "DEBIT",
+          "panSuffix": "5981",
+          "approval": "471460"
+        }
+      ],
+      "totals": {
+        "netMinor": 1748,
+        "taxMinor": 140,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1888
+      }
+    },
+    {
+      "sequenceNo": 501990,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T16:39:59-07:00",
+      "endedAt": "2026-10-14T16:41:40-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "070420003202",
+          "variant": "000",
+          "text": "Greek Yogurt Plain 32oz",
+          "department": "022",
+          "quantity": "1",
+          "unitPriceMinor": 599,
+          "extendedMinor": 599,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "200000040536",
+          "variant": "000",
+          "text": "Lemon Each",
+          "department": "023",
+          "quantity": "1",
+          "unitPriceMinor": 79,
+          "extendedMinor": 79,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "200000041335",
+          "variant": "000",
+          "text": "Gala Apples per lb",
+          "department": "023",
+          "quantity": "2.248",
+          "unitPriceMinor": 199,
+          "extendedMinor": 447,
+          "taxCode": "T0",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 1125,
+          "taxMinor": 0
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 1125,
+          "network": "AMEX",
+          "panSuffix": "3358",
+          "approval": "389893"
+        }
+      ],
+      "totals": {
+        "netMinor": 1125,
+        "taxMinor": 0,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1125
+      }
+    },
+    {
+      "sequenceNo": 501991,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T16:45:18-07:00",
+      "endedAt": "2026-10-14T16:47:37-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "016000275263",
+          "variant": "000",
+          "text": "Granola Bar Oat Honey",
+          "department": "020",
+          "quantity": "2",
+          "unitPriceMinor": 149,
+          "extendedMinor": 298,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 298,
+          "taxMinor": 24
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 322,
+          "network": "MC",
+          "panSuffix": "8074",
+          "approval": "678644"
+        }
+      ],
+      "totals": {
+        "netMinor": 298,
+        "taxMinor": 24,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 322
+      }
+    },
+    {
+      "sequenceNo": 501992,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T17:00:30-07:00",
+      "endedAt": "2026-10-14T17:02:25-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "giftcard",
+          "action": "load",
+          "cardSuffix": "4866",
+          "amountMinor": 10000
+        }
+      ],
+      "taxes": [],
+      "payments": [
+        {
+          "method": "cash",
+          "amountMinor": 10000,
+          "tenderedMinor": 10000,
+          "changeMinor": 0
+        }
+      ],
+      "totals": {
+        "netMinor": 0,
+        "taxMinor": 0,
+        "giftCardLoadsMinor": 10000,
+        "grandMinor": 10000
+      }
+    },
+    {
+      "sequenceNo": 501993,
+      "kind": "cash_drop",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T17:04:43-07:00",
+      "endedAt": "2026-10-14T17:07:06-07:00",
+      "drop": {
+        "envelopeNo": "2",
+        "amountMinor": 15000,
+        "cancelled": false
+      }
+    },
+    {
+      "sequenceNo": 501994,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T17:07:56-07:00",
+      "endedAt": "2026-10-14T17:09:26-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000040468",
+          "variant": "000",
+          "text": "Avocado Each",
+          "department": "023",
+          "quantity": "1",
+          "unitPriceMinor": 150,
+          "extendedMinor": 150,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "200000041335",
+          "variant": "000",
+          "text": "Gala Apples per lb",
+          "department": "023",
+          "quantity": "1.106",
+          "unitPriceMinor": 199,
+          "extendedMinor": 220,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "051500241301",
+          "variant": "000",
+          "text": "Peanut Butter 16oz",
+          "department": "021",
+          "quantity": "1",
+          "unitPriceMinor": 399,
+          "extendedMinor": 399,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 4,
+          "lineType": "item",
+          "sku": "070420006081",
+          "variant": "000",
+          "text": "Cream Cheese 8oz",
+          "department": "022",
+          "quantity": "1",
+          "unitPriceMinor": 299,
+          "extendedMinor": 299,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 5,
+          "lineType": "item",
+          "sku": "072140002022",
+          "variant": "000",
+          "text": "Hand Sanitizer 2oz",
+          "department": "041",
+          "quantity": "1",
+          "unitPriceMinor": 199,
+          "extendedMinor": 199,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 1068,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 199,
+          "taxMinor": 16
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 1283,
+          "network": "AMEX",
+          "panSuffix": "2683",
+          "approval": "574779"
+        }
+      ],
+      "totals": {
+        "netMinor": 1267,
+        "taxMinor": 16,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1283
+      }
+    },
+    {
+      "sequenceNo": 501995,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T17:16:54-07:00",
+      "endedAt": "2026-10-14T17:18:39-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000003036",
+          "variant": "000",
+          "text": "Ham & Cheese Panini",
+          "department": "013",
+          "quantity": "1",
+          "unitPriceMinor": 845,
+          "extendedMinor": 845,
+          "taxCode": "T2",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "070847000013",
+          "variant": "000",
+          "text": "Energy Drink 16oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 329,
+          "extendedMinor": 329,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "200000090029",
+          "variant": "000",
+          "text": "Bottle Deposit",
+          "department": "051",
+          "quantity": "1",
+          "unitPriceMinor": 10,
+          "extendedMinor": 10,
+          "taxCode": "T0",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 10,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 329,
+          "taxMinor": 26
+        },
+        {
+          "code": "T2",
+          "taxableMinor": 845,
+          "taxMinor": 80
+        }
+      ],
+      "payments": [
+        {
+          "method": "cash",
+          "amountMinor": 1290,
+          "tenderedMinor": 1300,
+          "changeMinor": 10
+        }
+      ],
+      "totals": {
+        "netMinor": 1184,
+        "taxMinor": 106,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1290
+      }
+    },
+    {
+      "sequenceNo": 501996,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T17:35:07-07:00",
+      "endedAt": "2026-10-14T17:36:12-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000041335",
+          "variant": "000",
+          "text": "Gala Apples per lb",
+          "department": "023",
+          "quantity": "2.568",
+          "unitPriceMinor": 199,
+          "extendedMinor": 511,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "200000040871",
+          "variant": "000",
+          "text": "Roma Tomatoes per lb",
+          "department": "023",
+          "quantity": "1.014",
+          "unitPriceMinor": 179,
+          "extendedMinor": 182,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "051500123454",
+          "variant": "000",
+          "text": "Strawberry Jam 12oz",
+          "department": "021",
+          "quantity": "1",
+          "unitPriceMinor": 379,
+          "extendedMinor": 379,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 4,
+          "lineType": "item",
+          "sku": "072060008159",
+          "variant": "000",
+          "text": "Canned Tomatoes 28oz",
+          "department": "021",
+          "quantity": "1",
+          "unitPriceMinor": 249,
+          "extendedMinor": 249,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 5,
+          "lineType": "item",
+          "sku": "200000004019",
+          "variant": "000",
+          "text": "Sourdough Loaf",
+          "department": "021",
+          "quantity": "1",
+          "unitPriceMinor": 599,
+          "extendedMinor": 599,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 6,
+          "lineType": "item",
+          "sku": "200000090012",
+          "variant": "000",
+          "text": "Paper Bag Fee",
+          "department": "050",
+          "quantity": "2",
+          "unitPriceMinor": 10,
+          "extendedMinor": 20,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 1920,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 20,
+          "taxMinor": 2
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 1942,
+          "network": "AMEX",
+          "panSuffix": "9056",
+          "approval": "885002"
+        }
+      ],
+      "totals": {
+        "netMinor": 1940,
+        "taxMinor": 2,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1942
+      }
+    },
+    {
+      "sequenceNo": 501997,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T17:38:12-07:00",
+      "endedAt": "2026-10-14T17:39:51-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000041335",
+          "variant": "000",
+          "text": "Gala Apples per lb",
+          "department": "023",
+          "quantity": "1.28",
+          "unitPriceMinor": 199,
+          "extendedMinor": 255,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "072060008159",
+          "variant": "000",
+          "text": "Canned Tomatoes 28oz",
+          "department": "021",
+          "quantity": "1",
+          "unitPriceMinor": 249,
+          "extendedMinor": 249,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "200000040116",
+          "variant": "000",
+          "text": "Bananas per lb",
+          "department": "023",
+          "quantity": "2.044",
+          "unitPriceMinor": 69,
+          "extendedMinor": 141,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 4,
+          "lineType": "item",
+          "sku": "070420004087",
+          "variant": "000",
+          "text": "Cheddar Block 8oz",
+          "department": "022",
+          "quantity": "2",
+          "unitPriceMinor": 449,
+          "extendedMinor": 898,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 5,
+          "lineType": "item",
+          "sku": "076808001013",
+          "variant": "000",
+          "text": "Spaghetti 16oz",
+          "department": "021",
+          "quantity": "1",
+          "unitPriceMinor": 189,
+          "extendedMinor": 189,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 6,
+          "lineType": "item",
+          "sku": "072140000011",
+          "variant": "000",
+          "text": "Lip Balm",
+          "department": "041",
+          "quantity": "1",
+          "unitPriceMinor": 299,
+          "extendedMinor": 299,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 7,
+          "lineType": "item",
+          "sku": null,
+          "variant": null,
+          "text": "OPEN DEPT",
+          "department": "099",
+          "quantity": "1",
+          "unitPriceMinor": 150,
+          "extendedMinor": 150,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 1732,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 449,
+          "taxMinor": 36
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 2217,
+          "network": "AMEX",
+          "panSuffix": "6400",
+          "approval": "233942"
+        }
+      ],
+      "totals": {
+        "netMinor": 2181,
+        "taxMinor": 36,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 2217
+      }
+    },
+    {
+      "sequenceNo": 501998,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T17:45:02-07:00",
+      "endedAt": "2026-10-14T17:46:33-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000001117",
+          "variant": "000",
+          "text": "Chai Latte 12oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 435,
+          "extendedMinor": 435,
+          "taxCode": "T2",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T2",
+          "taxableMinor": 435,
+          "taxMinor": 41
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 476,
+          "network": "AMEX",
+          "panSuffix": "7778",
+          "approval": "803905"
+        }
+      ],
+      "totals": {
+        "netMinor": 435,
+        "taxMinor": 41,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 476
+      }
+    },
+    {
+      "sequenceNo": 501999,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T17:46:11-07:00",
+      "endedAt": "2026-10-14T17:48:12-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "089112007503",
+          "variant": "000",
+          "text": "Cabernet 750ml",
+          "department": "030",
+          "quantity": "1",
+          "unitPriceMinor": 1449,
+          "extendedMinor": 1449,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 1449,
+          "taxMinor": 116
+        }
+      ],
+      "payments": [
+        {
+          "method": "mobile",
+          "amountMinor": 1565,
+          "wallet": "GOOGLE_PAY"
+        }
+      ],
+      "totals": {
+        "netMinor": 1449,
+        "taxMinor": 116,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1565
+      }
+    },
+    {
+      "sequenceNo": 502000,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "K1",
+      "operator": "0",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T17:52:47-07:00",
+      "endedAt": "2026-10-14T17:53:51-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "012000008177",
+          "variant": "000",
+          "text": "Iced Tea Lemon 18.5oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 249,
+          "extendedMinor": 249,
+          "taxCode": "T1",
+          "voided": true
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "200000001117",
+          "variant": "000",
+          "text": "Chai Latte 12oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 435,
+          "extendedMinor": 435,
+          "taxCode": "T2",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T2",
+          "taxableMinor": 435,
+          "taxMinor": 41
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 476,
+          "network": "MC",
+          "panSuffix": "9507",
+          "approval": "358472"
+        }
+      ],
+      "totals": {
+        "netMinor": 435,
+        "taxMinor": 41,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 476
+      }
+    },
+    {
+      "sequenceNo": 502001,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T17:53:19-07:00",
+      "endedAt": "2026-10-14T17:54:24-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "028400000116",
+          "variant": "000",
+          "text": "Chips Sea Salt 2oz",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 199,
+          "extendedMinor": 199,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "200000002015",
+          "variant": "000",
+          "text": "Butter Croissant",
+          "department": "012",
+          "quantity": "1",
+          "unitPriceMinor": 325,
+          "extendedMinor": 325,
+          "taxCode": "T2",
+          "voided": true
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 199,
+          "taxMinor": 16
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 215,
+          "network": "DEBIT",
+          "panSuffix": "4084",
+          "approval": "810966"
+        }
+      ],
+      "totals": {
+        "netMinor": 199,
+        "taxMinor": 16,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 215
+      }
+    },
+    {
+      "sequenceNo": 502002,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T17:54:52-07:00",
+      "endedAt": "2026-10-14T17:55:58-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "016000275263",
+          "variant": "000",
+          "text": "Granola Bar Oat Honey",
+          "department": "020",
+          "quantity": "2",
+          "unitPriceMinor": 149,
+          "extendedMinor": 298,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "070847000013",
+          "variant": "000",
+          "text": "Energy Drink 16oz",
+          "department": "011",
+          "quantity": "3",
+          "unitPriceMinor": 329,
+          "extendedMinor": 987,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "200000090029",
+          "variant": "000",
+          "text": "Bottle Deposit",
+          "department": "051",
+          "quantity": "3",
+          "unitPriceMinor": 10,
+          "extendedMinor": 30,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 4,
+          "lineType": "item",
+          "sku": "077975001189",
+          "variant": "000",
+          "text": "Pretzel Twists 8oz",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 329,
+          "extendedMinor": 329,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 30,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 1614,
+          "taxMinor": 129
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 1773,
+          "network": "DEBIT",
+          "panSuffix": "8453",
+          "approval": "993088"
+        }
+      ],
+      "totals": {
+        "netMinor": 1644,
+        "taxMinor": 129,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1773
+      }
+    },
+    {
+      "sequenceNo": 502003,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "302",
+      "shiftNo": 2,
+      "startedAt": "2026-10-14T17:57:27-07:00",
+      "endedAt": "2026-10-14T17:59:19-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "037000013204",
+          "variant": "000",
+          "text": "Trash Bags 13gal 20ct",
+          "department": "040",
+          "quantity": "1",
+          "unitPriceMinor": 649,
+          "extendedMinor": 649,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 649,
+          "taxMinor": 52
+        }
+      ],
+      "payments": [
+        {
+          "method": "mobile",
+          "amountMinor": 701,
+          "wallet": "APPLE_PAY"
+        }
+      ],
+      "totals": {
+        "netMinor": 649,
+        "taxMinor": 52,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 701
+      }
+    }
+  ]
+}

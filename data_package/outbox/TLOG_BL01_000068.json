@@ -1,0 +1,1615 @@
+{
+  "schema": "tlog/3.0",
+  "store": "BL01",
+  "businessDay": "2026-10-10",
+  "batch": {
+    "seq": 68,
+    "createdAt": "2026-10-10T16:00:58-07:00",
+    "records": 25
+  },
+  "transactions": [
+    {
+      "sequenceNo": 102114,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "203",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T14:04:43-07:00",
+      "endedAt": "2026-10-10T14:06:12-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "048500010723",
+          "variant": "000",
+          "text": "Orange Juice 12oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 349,
+          "extendedMinor": 349,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "070847000013",
+          "variant": "000",
+          "text": "Energy Drink 16oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 329,
+          "extendedMinor": 329,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "200000090029",
+          "variant": "000",
+          "text": "Bottle Deposit",
+          "department": "051",
+          "quantity": "1",
+          "unitPriceMinor": 10,
+          "extendedMinor": 10,
+          "taxCode": "T0",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 10,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 678,
+          "taxMinor": 54
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 742,
+          "network": "VISA",
+          "panSuffix": "9151",
+          "approval": "682394"
+        }
+      ],
+      "totals": {
+        "netMinor": 688,
+        "taxMinor": 54,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 742
+      }
+    },
+    {
+      "sequenceNo": 102115,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "K2",
+      "operator": "0",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T14:07:18-07:00",
+      "endedAt": "2026-10-10T14:08:08-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "084656002168",
+          "variant": "000",
+          "text": "Popcorn White Cheddar",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 349,
+          "extendedMinor": 349,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "022000016348",
+          "variant": "000",
+          "text": "Mint Gum 15pc",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 179,
+          "extendedMinor": 179,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "070847000013",
+          "variant": "000",
+          "text": "Energy Drink 16oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 329,
+          "extendedMinor": 329,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 4,
+          "lineType": "item",
+          "sku": "200000090029",
+          "variant": "000",
+          "text": "Bottle Deposit",
+          "department": "051",
+          "quantity": "1",
+          "unitPriceMinor": 10,
+          "extendedMinor": 10,
+          "taxCode": "T0",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 10,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 857,
+          "taxMinor": 69
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 936,
+          "network": "MC",
+          "panSuffix": "7273",
+          "approval": "904544"
+        }
+      ],
+      "totals": {
+        "netMinor": 867,
+        "taxMinor": 69,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 936
+      }
+    },
+    {
+      "sequenceNo": 102116,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "203",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T14:14:32-07:00",
+      "endedAt": "2026-10-10T14:15:39-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000003050",
+          "variant": "000",
+          "text": "Soup of the Day 12oz",
+          "department": "013",
+          "quantity": "1",
+          "unitPriceMinor": 545,
+          "extendedMinor": 545,
+          "taxCode": "T2",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "012000008177",
+          "variant": "000",
+          "text": "Iced Tea Lemon 18.5oz",
+          "department": "011",
+          "quantity": "2",
+          "unitPriceMinor": 249,
+          "extendedMinor": 498,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "200000090029",
+          "variant": "000",
+          "text": "Bottle Deposit",
+          "department": "051",
+          "quantity": "2",
+          "unitPriceMinor": 10,
+          "extendedMinor": 20,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 4,
+          "lineType": "item",
+          "sku": "028400000123",
+          "variant": "000",
+          "text": "Chips BBQ 2oz",
+          "department": "020",
+          "quantity": "2",
+          "unitPriceMinor": 199,
+          "extendedMinor": 398,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 20,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 896,
+          "taxMinor": 72
+        },
+        {
+          "code": "T2",
+          "taxableMinor": 545,
+          "taxMinor": 52
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 1585,
+          "network": "VISA",
+          "panSuffix": "9710",
+          "approval": "287843"
+        }
+      ],
+      "totals": {
+        "netMinor": 1461,
+        "taxMinor": 124,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1585
+      }
+    },
+    {
+      "sequenceNo": 102117,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "K1",
+      "operator": "0",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T14:30:54-07:00",
+      "endedAt": "2026-10-10T14:31:15-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "085612000303",
+          "variant": "000",
+          "text": "Kombucha Ginger 16oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 399,
+          "extendedMinor": 399,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 399,
+          "taxMinor": 32
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 431,
+          "network": "AMEX",
+          "panSuffix": "6889",
+          "approval": "640539"
+        }
+      ],
+      "totals": {
+        "netMinor": 399,
+        "taxMinor": 32,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 431
+      }
+    },
+    {
+      "sequenceNo": 102118,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "K2",
+      "operator": "0",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T14:32:37-07:00",
+      "endedAt": "2026-10-10T14:34:54-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000001513",
+          "variant": "000",
+          "text": "Hot Apple Cider 12oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 375,
+          "extendedMinor": 375,
+          "taxCode": "T2",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T2",
+          "taxableMinor": 375,
+          "taxMinor": 36
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 411,
+          "network": "MC",
+          "panSuffix": "4294",
+          "approval": "962687"
+        }
+      ],
+      "totals": {
+        "netMinor": 375,
+        "taxMinor": 36,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 411
+      }
+    },
+    {
+      "sequenceNo": 102119,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "203",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T14:37:18-07:00",
+      "endedAt": "2026-10-10T14:38:37-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "giftcard",
+          "action": "load",
+          "cardSuffix": "8746",
+          "amountMinor": 10000
+        }
+      ],
+      "taxes": [],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 10000,
+          "network": "VISA",
+          "panSuffix": "6156",
+          "approval": "526378"
+        }
+      ],
+      "totals": {
+        "netMinor": 0,
+        "taxMinor": 0,
+        "giftCardLoadsMinor": 10000,
+        "grandMinor": 10000
+      }
+    },
+    {
+      "sequenceNo": 102120,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R2",
+      "operator": "204",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T14:38:31-07:00",
+      "endedAt": "2026-10-10T14:39:13-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "077975001189",
+          "variant": "000",
+          "text": "Pretzel Twists 8oz",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 329,
+          "extendedMinor": 329,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 329,
+          "taxMinor": 26
+        }
+      ],
+      "payments": [
+        {
+          "method": "cash",
+          "amountMinor": 355,
+          "tenderedMinor": 400,
+          "changeMinor": 45
+        }
+      ],
+      "totals": {
+        "netMinor": 329,
+        "taxMinor": 26,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 355
+      }
+    },
+    {
+      "sequenceNo": 102121,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R2",
+      "operator": "204",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T14:38:36-07:00",
+      "endedAt": "2026-10-10T14:39:15-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "048500010723",
+          "variant": "000",
+          "text": "Orange Juice 12oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 349,
+          "extendedMinor": 349,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "042000012157",
+          "variant": "000",
+          "text": "Gummy Bears 5oz",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 299,
+          "extendedMinor": 299,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "084656002168",
+          "variant": "000",
+          "text": "Popcorn White Cheddar",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 349,
+          "extendedMinor": 349,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 997,
+          "taxMinor": 80
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 1077,
+          "network": "MC",
+          "panSuffix": "7344",
+          "approval": "523656"
+        }
+      ],
+      "totals": {
+        "netMinor": 997,
+        "taxMinor": 80,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1077
+      }
+    },
+    {
+      "sequenceNo": 102122,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "K1",
+      "operator": "0",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T14:38:52-07:00",
+      "endedAt": "2026-10-10T14:40:38-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "051500042106",
+          "variant": "000",
+          "text": "Honey 12oz",
+          "department": "021",
+          "quantity": "1",
+          "unitPriceMinor": 649,
+          "extendedMinor": 649,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "200000040536",
+          "variant": "000",
+          "text": "Lemon Each",
+          "department": "023",
+          "quantity": "1",
+          "unitPriceMinor": 79,
+          "extendedMinor": 79,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "070420000652",
+          "variant": "000",
+          "text": "2% Milk Half Gallon",
+          "department": "022",
+          "quantity": "1",
+          "unitPriceMinor": 339,
+          "extendedMinor": 339,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 4,
+          "lineType": "item",
+          "sku": "070420001123",
+          "variant": "000",
+          "text": "Large Eggs Dozen",
+          "department": "022",
+          "quantity": "1",
+          "unitPriceMinor": 429,
+          "extendedMinor": 429,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 5,
+          "lineType": "item",
+          "sku": "072060008159",
+          "variant": "000",
+          "text": "Canned Tomatoes 28oz",
+          "department": "021",
+          "quantity": "2",
+          "unitPriceMinor": 249,
+          "extendedMinor": 498,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 6,
+          "lineType": "item",
+          "sku": "070420005169",
+          "variant": "000",
+          "text": "Butter Salted 1lb",
+          "department": "022",
+          "quantity": "2",
+          "unitPriceMinor": 529,
+          "extendedMinor": 1058,
+          "taxCode": "T0",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 3052,
+          "taxMinor": 0
+        }
+      ],
+      "payments": [
+        {
+          "method": "mobile",
+          "amountMinor": 3052,
+          "wallet": "APPLE_PAY"
+        }
+      ],
+      "totals": {
+        "netMinor": 3052,
+        "taxMinor": 0,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 3052
+      }
+    },
+    {
+      "sequenceNo": 102123,
+      "kind": "sale",
+      "state": "cancelled",
+      "terminal": "R2",
+      "operator": "204",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T14:42:16-07:00",
+      "endedAt": "2026-10-10T14:44:33-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000003043",
+          "variant": "000",
+          "text": "Caesar Salad Bowl",
+          "department": "013",
+          "quantity": "1",
+          "unitPriceMinor": 925,
+          "extendedMinor": 925,
+          "taxCode": "T2",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "085123400111",
+          "variant": "000",
+          "text": "Sparkling Water 500ml",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 199,
+          "extendedMinor": 199,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "200000090029",
+          "variant": "000",
+          "text": "Bottle Deposit",
+          "department": "051",
+          "quantity": "1",
+          "unitPriceMinor": 10,
+          "extendedMinor": 10,
+          "taxCode": "T0",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 10,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 199,
+          "taxMinor": 16
+        },
+        {
+          "code": "T2",
+          "taxableMinor": 925,
+          "taxMinor": 88
+        }
+      ],
+      "payments": [],
+      "totals": {
+        "netMinor": 1134,
+        "taxMinor": 104,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1238
+      }
+    },
+    {
+      "sequenceNo": 102124,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "K2",
+      "operator": "0",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T14:59:10-07:00",
+      "endedAt": "2026-10-10T15:01:04-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000001513",
+          "variant": "000",
+          "text": "Hot Apple Cider 12oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 375,
+          "extendedMinor": 375,
+          "taxCode": "T2",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T2",
+          "taxableMinor": 375,
+          "taxMinor": 36
+        }
+      ],
+      "payments": [
+        {
+          "method": "mobile",
+          "amountMinor": 411,
+          "wallet": "GOOGLE_PAY"
+        }
+      ],
+      "totals": {
+        "netMinor": 375,
+        "taxMinor": 36,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 411
+      }
+    },
+    {
+      "sequenceNo": 102125,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "203",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:03:11-07:00",
+      "endedAt": "2026-10-10T15:04:40-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "084656002168",
+          "variant": "000",
+          "text": "Popcorn White Cheddar",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 349,
+          "extendedMinor": 349,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "022000016348",
+          "variant": "000",
+          "text": "Mint Gum 15pc",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 179,
+          "extendedMinor": 179,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "722240000151",
+          "variant": "000",
+          "text": "Protein Bar Choc PB",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 299,
+          "extendedMinor": 299,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 827,
+          "taxMinor": 66
+        }
+      ],
+      "payments": [
+        {
+          "method": "mobile",
+          "amountMinor": 893,
+          "wallet": "APPLE_PAY"
+        }
+      ],
+      "totals": {
+        "netMinor": 827,
+        "taxMinor": 66,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 893
+      }
+    },
+    {
+      "sequenceNo": 102126,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "203",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:06:45-07:00",
+      "endedAt": "2026-10-10T15:08:17-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000001056",
+          "variant": "000",
+          "text": "Cold Brew 16oz",
+          "department": "010",
+          "quantity": "1",
+          "unitPriceMinor": 445,
+          "extendedMinor": 445,
+          "taxCode": "T2",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "200000002022",
+          "variant": "000",
+          "text": "Chocolate Croissant",
+          "department": "012",
+          "quantity": "1",
+          "unitPriceMinor": 375,
+          "extendedMinor": 375,
+          "taxCode": "T2",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T2",
+          "taxableMinor": 820,
+          "taxMinor": 78
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 898,
+          "network": "AMEX",
+          "panSuffix": "0118",
+          "approval": "126053"
+        }
+      ],
+      "totals": {
+        "netMinor": 820,
+        "taxMinor": 78,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 898
+      }
+    },
+    {
+      "sequenceNo": 102127,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "203",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:08:06-07:00",
+      "endedAt": "2026-10-10T15:09:45-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "089112007503",
+          "variant": "000",
+          "text": "Cabernet 750ml",
+          "department": "030",
+          "quantity": "1",
+          "unitPriceMinor": 1399,
+          "extendedMinor": 1399,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "016000275263",
+          "variant": "000",
+          "text": "Granola Bar Oat Honey",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 149,
+          "extendedMinor": 149,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 1548,
+          "taxMinor": 124
+        }
+      ],
+      "payments": [
+        {
+          "method": "cash",
+          "amountMinor": 1672,
+          "tenderedMinor": 1700,
+          "changeMinor": 28
+        }
+      ],
+      "totals": {
+        "netMinor": 1548,
+        "taxMinor": 124,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1672
+      }
+    },
+    {
+      "sequenceNo": 102128,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R2",
+      "operator": "204",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:08:08-07:00",
+      "endedAt": "2026-10-10T15:10:14-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000001049",
+          "variant": "000",
+          "text": "Americano 12oz",
+          "department": "010",
+          "quantity": "1",
+          "unitPriceMinor": 325,
+          "extendedMinor": 325,
+          "taxCode": "T2",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T2",
+          "taxableMinor": 325,
+          "taxMinor": 31
+        }
+      ],
+      "payments": [
+        {
+          "method": "mobile",
+          "amountMinor": 356,
+          "wallet": "APPLE_PAY"
+        }
+      ],
+      "totals": {
+        "netMinor": 325,
+        "taxMinor": 31,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 356
+      }
+    },
+    {
+      "sequenceNo": 102129,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "203",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:10:38-07:00",
+      "endedAt": "2026-10-10T15:11:48-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "028400000116",
+          "variant": "000",
+          "text": "Chips Sea Salt 2oz",
+          "department": "020",
+          "quantity": "3",
+          "unitPriceMinor": 199,
+          "extendedMinor": 597,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "084656002168",
+          "variant": "000",
+          "text": "Popcorn White Cheddar",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 349,
+          "extendedMinor": 349,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 946,
+          "taxMinor": 76
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 1022,
+          "network": "VISA",
+          "panSuffix": "8459",
+          "approval": "642400"
+        }
+      ],
+      "totals": {
+        "netMinor": 946,
+        "taxMinor": 76,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1022
+      }
+    },
+    {
+      "sequenceNo": 102130,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R2",
+      "operator": "204",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:14:46-07:00",
+      "endedAt": "2026-10-10T15:16:23-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "078672000642",
+          "variant": "000",
+          "text": "Spring Water 1L",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 179,
+          "extendedMinor": 179,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "200000002022",
+          "variant": "000",
+          "text": "Chocolate Croissant",
+          "department": "012",
+          "quantity": "1",
+          "unitPriceMinor": 375,
+          "extendedMinor": 375,
+          "taxCode": "T2",
+          "voided": true
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "200000090029",
+          "variant": "000",
+          "text": "Bottle Deposit",
+          "department": "051",
+          "quantity": "1",
+          "unitPriceMinor": 10,
+          "extendedMinor": 10,
+          "taxCode": "T0",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 10,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 179,
+          "taxMinor": 14
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 203,
+          "network": "AMEX",
+          "panSuffix": "9977",
+          "approval": "376235"
+        }
+      ],
+      "totals": {
+        "netMinor": 189,
+        "taxMinor": 14,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 203
+      }
+    },
+    {
+      "sequenceNo": 102131,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "K1",
+      "operator": "0",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:17:18-07:00",
+      "endedAt": "2026-10-10T15:19:24-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "072056005124",
+          "variant": "000",
+          "text": "Trail Mix 6oz",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 549,
+          "extendedMinor": 549,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "049000000634",
+          "variant": "000",
+          "text": "Diet Cola 20oz",
+          "department": "011",
+          "quantity": "2",
+          "unitPriceMinor": 229,
+          "extendedMinor": 458,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "200000090029",
+          "variant": "000",
+          "text": "Bottle Deposit",
+          "department": "051",
+          "quantity": "2",
+          "unitPriceMinor": 10,
+          "extendedMinor": 20,
+          "taxCode": "T0",
+          "voided": false
+        },
+        {
+          "lineNo": 4,
+          "lineType": "item",
+          "sku": "034000000241",
+          "variant": "000",
+          "text": "Milk Choc Bar 1.5oz",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 189,
+          "extendedMinor": 189,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 20,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 1196,
+          "taxMinor": 96
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 1312,
+          "network": "MC",
+          "panSuffix": "0715",
+          "approval": "470488"
+        }
+      ],
+      "totals": {
+        "netMinor": 1216,
+        "taxMinor": 96,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1312
+      }
+    },
+    {
+      "sequenceNo": 102132,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "203",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:22:42-07:00",
+      "endedAt": "2026-10-10T15:23:32-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "037000006169",
+          "variant": "000",
+          "text": "Dish Soap 16oz",
+          "department": "040",
+          "quantity": "3",
+          "unitPriceMinor": 379,
+          "extendedMinor": 1137,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "200000090012",
+          "variant": "000",
+          "text": "Paper Bag Fee",
+          "department": "050",
+          "quantity": "1",
+          "unitPriceMinor": 10,
+          "extendedMinor": 10,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 1147,
+          "taxMinor": 92
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 1239,
+          "network": "VISA",
+          "panSuffix": "1912",
+          "approval": "383872"
+        }
+      ],
+      "totals": {
+        "netMinor": 1147,
+        "taxMinor": 92,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1239
+      }
+    },
+    {
+      "sequenceNo": 102133,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "K2",
+      "operator": "0",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:29:36-07:00",
+      "endedAt": "2026-10-10T15:32:06-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "028400000123",
+          "variant": "000",
+          "text": "Chips BBQ 2oz",
+          "department": "020",
+          "quantity": "2",
+          "unitPriceMinor": 199,
+          "extendedMinor": 398,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 398,
+          "taxMinor": 32
+        }
+      ],
+      "payments": [
+        {
+          "method": "mobile",
+          "amountMinor": 430,
+          "wallet": "GOOGLE_PAY"
+        }
+      ],
+      "totals": {
+        "netMinor": 398,
+        "taxMinor": 32,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 430
+      }
+    },
+    {
+      "sequenceNo": 102134,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "203",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:33:04-07:00",
+      "endedAt": "2026-10-10T15:33:26-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "034000000241",
+          "variant": "000",
+          "text": "Milk Choc Bar 1.5oz",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 189,
+          "extendedMinor": 189,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "049000000634",
+          "variant": "000",
+          "text": "Diet Cola 20oz",
+          "department": "011",
+          "quantity": "1",
+          "unitPriceMinor": 229,
+          "extendedMinor": 229,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "200000090029",
+          "variant": "000",
+          "text": "Bottle Deposit",
+          "department": "051",
+          "quantity": "1",
+          "unitPriceMinor": 10,
+          "extendedMinor": 10,
+          "taxCode": "T0",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T0",
+          "taxableMinor": 10,
+          "taxMinor": 0
+        },
+        {
+          "code": "T1",
+          "taxableMinor": 418,
+          "taxMinor": 33
+        }
+      ],
+      "payments": [
+        {
+          "method": "cash",
+          "amountMinor": 461,
+          "tenderedMinor": 1000,
+          "changeMinor": 539
+        }
+      ],
+      "totals": {
+        "netMinor": 428,
+        "taxMinor": 33,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 461
+      }
+    },
+    {
+      "sequenceNo": 102135,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "203",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:43:00-07:00",
+      "endedAt": "2026-10-10T15:43:57-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "028400000116",
+          "variant": "000",
+          "text": "Chips Sea Salt 2oz",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 199,
+          "extendedMinor": 199,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "084656002168",
+          "variant": "000",
+          "text": "Popcorn White Cheddar",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 349,
+          "extendedMinor": 349,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 3,
+          "lineType": "item",
+          "sku": "034000000241",
+          "variant": "000",
+          "text": "Milk Choc Bar 1.5oz",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 189,
+          "extendedMinor": 189,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 737,
+          "taxMinor": 59
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 796,
+          "network": "DEBIT",
+          "panSuffix": "6970",
+          "approval": "331049"
+        }
+      ],
+      "totals": {
+        "netMinor": 737,
+        "taxMinor": 59,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 796
+      }
+    },
+    {
+      "sequenceNo": 102136,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "K2",
+      "operator": "0",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:45:37-07:00",
+      "endedAt": "2026-10-10T15:48:01-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "048500010723",
+          "variant": "000",
+          "text": "Orange Juice 12oz",
+          "department": "011",
+          "quantity": "3",
+          "unitPriceMinor": 349,
+          "extendedMinor": 1047,
+          "taxCode": "T1",
+          "voided": false
+        },
+        {
+          "lineNo": 2,
+          "lineType": "item",
+          "sku": "077975001189",
+          "variant": "000",
+          "text": "Pretzel Twists 8oz",
+          "department": "020",
+          "quantity": "1",
+          "unitPriceMinor": 329,
+          "extendedMinor": 329,
+          "taxCode": "T1",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T1",
+          "taxableMinor": 1376,
+          "taxMinor": 110
+        }
+      ],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 1486,
+          "network": "AMEX",
+          "panSuffix": "5249",
+          "approval": "464976"
+        }
+      ],
+      "totals": {
+        "netMinor": 1376,
+        "taxMinor": 110,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 1486
+      }
+    },
+    {
+      "sequenceNo": 102137,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "203",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:55:39-07:00",
+      "endedAt": "2026-10-10T15:55:59-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "giftcard",
+          "action": "load",
+          "cardSuffix": "6638",
+          "amountMinor": 2500
+        }
+      ],
+      "taxes": [],
+      "payments": [
+        {
+          "method": "card",
+          "amountMinor": 2500,
+          "network": "AMEX",
+          "panSuffix": "3122",
+          "approval": "248620"
+        }
+      ],
+      "totals": {
+        "netMinor": 0,
+        "taxMinor": 0,
+        "giftCardLoadsMinor": 2500,
+        "grandMinor": 2500
+      }
+    },
+    {
+      "sequenceNo": 102138,
+      "kind": "sale",
+      "state": "completed",
+      "terminal": "R1",
+      "operator": "203",
+      "shiftNo": 2,
+      "startedAt": "2026-10-10T15:57:54-07:00",
+      "endedAt": "2026-10-10T15:58:32-07:00",
+      "lines": [
+        {
+          "lineNo": 1,
+          "lineType": "item",
+          "sku": "200000001063",
+          "variant": "000",
+          "text": "Espresso Double",
+          "department": "010",
+          "quantity": "2",
+          "unitPriceMinor": 295,
+          "extendedMinor": 590,
+          "taxCode": "T2",
+          "voided": false
+        }
+      ],
+      "taxes": [
+        {
+          "code": "T2",
+          "taxableMinor": 590,
+          "taxMinor": 56
+        }
+      ],
+      "payments": [
+        {
+          "method": "cash",
+          "amountMinor": 646,
+          "tenderedMinor": 1000,
+          "changeMinor": 354
+        }
+      ],
+      "totals": {
+        "netMinor": 590,
+        "taxMinor": 56,
+        "giftCardLoadsMinor": 0,
+        "grandMinor": 646
+      }
+    }
+  ]
+}

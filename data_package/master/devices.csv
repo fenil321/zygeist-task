@@ -1,0 +1,7 @@
+store_id,device_id,device_type,display_name
+BL01,R1,COUNTER,Front Counter 1
+BL01,R2,COUNTER,Front Counter 2
+BL01,K1,SELF_CHECKOUT,Self Checkout 1
+BL01,K2,SELF_CHECKOUT,Self Checkout 2
+BL02,R1,COUNTER,Front Counter 1
+BL02,K1,SELF_CHECKOUT,Self Checkout 1

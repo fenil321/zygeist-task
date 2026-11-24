@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EndOfDay formatVersion="2.1" storeId="BL02" businessDate="2026-10-04" closed="2026-10-04 21:06:22">
+  <Departments>
+    <Department code="10" name="Coffee &amp; Espresso" qty="71" amount="280.85"/>
+    <Department code="11" name="Tea &amp; Cold Drinks" qty="52" amount="153.52"/>
+    <Department code="12" name="Bakery" qty="33" amount="95.25"/>
+    <Department code="13" name="Sandwiches &amp; Prepared" qty="32" amount="238.80"/>
+    <Department code="20" name="Snacks &amp; Candy" qty="68" amount="216.22"/>
+    <Department code="21" name="Grocery" qty="67" amount="264.43"/>
+    <Department code="22" name="Dairy &amp; Eggs" qty="45" amount="204.55"/>
+    <Department code="23" name="Fresh Produce" qty="36.451" amount="55.86"/>
+    <Department code="30" name="Beer &amp; Wine" qty="14" amount="171.86"/>
+    <Department code="40" name="Household" qty="13" amount="66.77"/>
+    <Department code="41" name="Health &amp; Beauty" qty="5" amount="30.45"/>
+    <Department code="50" name="Bags &amp; Fees" qty="10" amount="1.00"/>
+    <Department code="51" name="Bottle Deposit" qty="84" amount="8.40"/>
+    <Department code="99" name="Open Department" qty="2" amount="6.50"/>
+  </Departments>
+  <Taxes>
+    <Tax group="T0" taxable="533.24" amount="0.00"/>
+    <Tax group="T1" taxable="611.97" amount="49.00"/>
+    <Tax group="T2" taxable="649.25" amount="61.68"/>
+  </Taxes>
+  <Tenders>
+    <Tender type="CARD" count="86" amount="1033.07"/>
+    <Tender type="CASH" count="45" amount="682.76"/>
+    <Tender type="GIFT" count="4" amount="69.23"/>
+    <Tender type="MOBILE" count="20" amount="245.08"/>
+  </Tenders>
+  <GiftCards loadCount="2" loadAmount="125.00"/>
+  <CashDrops count="4" amount="600.00" cancelledCount="1"/>
+  <Exceptions lineVoids="5" lineVoidAmount="13.71" cancelledTransactions="1" cancelledAmount="8.21" refunds="2" refundAmount="-6.24" noSales="2"/>
+  <Totals transactions="153" netSales="1794.46" tax="110.68" giftCardLoads="125.00" grandTotal="2030.14"/>
+</EndOfDay>

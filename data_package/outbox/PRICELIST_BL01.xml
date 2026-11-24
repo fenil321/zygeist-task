@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PriceList formatVersion="2.1" storeId="BL01" exported="2026-10-14 22:00:05">
+  <TaxGroups>
+    <TaxGroup code="T0" ratePercent="0.00" description="Exempt"/>
+    <TaxGroup code="T1" ratePercent="8.00" description="General merchandise 8.00%"/>
+    <TaxGroup code="T2" ratePercent="9.50" description="Prepared food and drinks 9.50%"/>
+  </TaxGroups>
+  <Departments>
+    <Department code="10" name="Coffee &amp; Espresso" defaultTaxGroup="T2" minAge="0"/>
+    <Department code="11" name="Tea &amp; Cold Drinks" defaultTaxGroup="T1" minAge="0"/>
+    <Department code="12" name="Bakery" defaultTaxGroup="T2" minAge="0"/>
+    <Department code="13" name="Sandwiches &amp; Prepared" defaultTaxGroup="T2" minAge="0"/>
+    <Department code="20" name="Snacks &amp; Candy" defaultTaxGroup="T1" minAge="0"/>
+    <Department code="21" name="Grocery" defaultTaxGroup="T0" minAge="0"/>
+    <Department code="22" name="Dairy &amp; Eggs" defaultTaxGroup="T0" minAge="0"/>
+    <Department code="23" name="Fresh Produce" defaultTaxGroup="T0" minAge="0"/>
+    <Department code="30" name="Beer &amp; Wine" defaultTaxGroup="T1" minAge="21"/>
+    <Department code="40" name="Household" defaultTaxGroup="T1" minAge="0"/>
+    <Department code="41" name="Health &amp; Beauty" defaultTaxGroup="T1" minAge="0"/>
+    <Department code="50" name="Bags &amp; Fees" defaultTaxGroup="T1" minAge="0"/>
+    <Department code="51" name="Bottle Deposit" defaultTaxGroup="T0" minAge="0"/>
+    <Department code="99" name="Open Department" defaultTaxGroup="T1" minAge="0"/>
+  </Departments>
+  <Items>
+    <Item code="200000001018" variant="000" description="Drip Coffee 12oz" dept="10" price="2.45" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000001018" variant="001" description="Drip Coffee 16oz" dept="10" price="2.95" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000001025" variant="000" description="Latte 12oz" dept="10" price="4.45" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000001025" variant="001" description="Latte 16oz" dept="10" price="5.15" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000001032" variant="000" description="Cappuccino 12oz" dept="10" price="4.15" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000001049" variant="000" description="Americano 12oz" dept="10" price="3.25" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000001056" variant="000" description="Cold Brew 16oz" dept="10" price="4.45" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000001063" variant="000" description="Espresso Double" dept="10" price="2.95" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000001117" variant="000" description="Chai Latte 12oz" dept="11" price="4.35" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="085123400111" variant="000" description="Sparkling Water 500ml" dept="11" price="1.99" taxGroup="T1" minAge="0" unit="EA" containers="1" active="Y"/>
+    <Item code="049000000443" variant="000" description="Cola 20oz" dept="11" price="2.29" taxGroup="T1" minAge="0" unit="EA" containers="1" active="Y"/>
+    <Item code="049000000634" variant="000" description="Diet Cola 20oz" dept="11" price="2.29" taxGroup="T1" minAge="0" unit="EA" containers="1" active="Y"/>
+    <Item code="048500010723" variant="000" description="Orange Juice 12oz" dept="11" price="3.49" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="012000008177" variant="000" description="Iced Tea Lemon 18.5oz" dept="11" price="2.49" taxGroup="T1" minAge="0" unit="EA" containers="1" active="Y"/>
+    <Item code="070847000013" variant="000" description="Energy Drink 16oz" dept="11" price="3.29" taxGroup="T1" minAge="0" unit="EA" containers="1" active="Y"/>
+    <Item code="078672000642" variant="000" description="Spring Water 1L" dept="11" price="1.79" taxGroup="T1" minAge="0" unit="EA" containers="1" active="Y"/>
+    <Item code="085612000303" variant="000" description="Kombucha Ginger 16oz" dept="11" price="3.99" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000002015" variant="000" description="Butter Croissant" dept="12" price="3.25" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000002022" variant="000" description="Chocolate Croissant" dept="12" price="3.75" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000002039" variant="000" description="Blueberry Muffin" dept="12" price="3.25" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000002046" variant="000" description="Cinnamon Roll" dept="12" price="3.95" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000002053" variant="000" description="Banana Bread Slice" dept="12" price="2.95" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000002060" variant="000" description="Plain Bagel" dept="12" price="1.95" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000002077" variant="000" description="Everything Bagel" dept="12" price="2.15" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000002084" variant="000" description="Cookie Choc Chip" dept="12" price="2.25" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000003012" variant="000" description="Turkey Club Sandwich" dept="13" price="8.95" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000003029" variant="000" description="Veggie Wrap" dept="13" price="7.95" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000003036" variant="000" description="Ham &amp; Cheese Panini" dept="13" price="8.45" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000003043" variant="000" description="Caesar Salad Bowl" dept="13" price="9.25" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000003050" variant="000" description="Soup of the Day 12oz" dept="13" price="5.45" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000003067" variant="000" description="Breakfast Burrito" dept="13" price="6.95" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000003074" variant="000" description="Yogurt Parfait" dept="13" price="4.95" taxGroup="T2" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="028400000116" variant="000" description="Chips Sea Salt 2oz" dept="20" price="1.99" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="028400000123" variant="000" description="Chips BBQ 2oz" dept="20" price="1.99" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="028400003070" variant="000" description="Tortilla Chips 9oz" dept="20" price="4.49" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="072056005124" variant="000" description="Trail Mix 6oz" dept="20" price="5.49" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="016000275263" variant="000" description="Granola Bar Oat Honey" dept="20" price="1.49" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="722240000151" variant="000" description="Protein Bar Choc PB" dept="20" price="2.99" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="034000000241" variant="000" description="Milk Choc Bar 1.5oz" dept="20" price="1.89" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="085048001431" variant="000" description="Dark Choc Sea Salt 3oz" dept="20" price="3.49" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="042000012157" variant="000" description="Gummy Bears 5oz" dept="20" price="2.99" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="022000016348" variant="000" description="Mint Gum 15pc" dept="20" price="1.79" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="077975001189" variant="000" description="Pretzel Twists 8oz" dept="20" price="3.29" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="084656002168" variant="000" description="Popcorn White Cheddar" dept="20" price="3.49" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="076808001013" variant="000" description="Spaghetti 16oz" dept="21" price="1.89" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="074570000241" variant="000" description="Marinara Sauce 24oz" dept="21" price="4.29" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="051500241301" variant="000" description="Peanut Butter 16oz" dept="21" price="3.99" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="051500123454" variant="000" description="Strawberry Jam 12oz" dept="21" price="3.79" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="030000010327" variant="000" description="Rolled Oats 18oz" dept="21" price="3.49" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000004019" variant="000" description="Sourdough Loaf" dept="21" price="5.49" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="072060002034" variant="000" description="White Rice 2lb" dept="21" price="2.99" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="072060008159" variant="000" description="Canned Tomatoes 28oz" dept="21" price="2.49" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="072060009156" variant="000" description="Black Beans 15oz" dept="21" price="1.29" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="051500042106" variant="000" description="Honey 12oz" dept="21" price="6.49" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="070420000645" variant="000" description="Whole Milk Half Gallon" dept="22" price="3.49" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="070420000652" variant="000" description="2% Milk Half Gallon" dept="22" price="3.39" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="190111000065" variant="000" description="Oat Milk 64oz" dept="22" price="4.99" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="070420001123" variant="000" description="Large Eggs Dozen" dept="22" price="4.29" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="070420003202" variant="000" description="Greek Yogurt Plain 32oz" dept="22" price="5.99" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="070420004087" variant="000" description="Cheddar Block 8oz" dept="22" price="4.49" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="070420005169" variant="000" description="Butter Salted 1lb" dept="22" price="5.29" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="070420006081" variant="000" description="Cream Cheese 8oz" dept="22" price="2.99" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000040116" variant="000" description="Bananas per lb" dept="23" price="0.69" taxGroup="T0" minAge="0" unit="LB" containers="0" active="Y"/>
+    <Item code="200000041335" variant="000" description="Gala Apples per lb" dept="23" price="1.99" taxGroup="T0" minAge="0" unit="LB" containers="0" active="Y"/>
+    <Item code="200000040468" variant="000" description="Avocado Each" dept="23" price="1.50" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000040536" variant="000" description="Lemon Each" dept="23" price="0.79" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000040871" variant="000" description="Roma Tomatoes per lb" dept="23" price="1.79" taxGroup="T0" minAge="0" unit="LB" containers="0" active="Y"/>
+    <Item code="080660001012" variant="000" description="Pale Ale 6pk 12oz" dept="30" price="10.99" taxGroup="T1" minAge="21" unit="EA" containers="6" active="Y"/>
+    <Item code="080660002026" variant="000" description="Lager 6pk 12oz" dept="30" price="9.49" taxGroup="T1" minAge="21" unit="EA" containers="6" active="Y"/>
+    <Item code="080660004044" variant="000" description="IPA 4pk 16oz" dept="30" price="12.99" taxGroup="T1" minAge="21" unit="EA" containers="4" active="Y"/>
+    <Item code="080660006062" variant="000" description="Hard Seltzer 6pk" dept="30" price="10.49" taxGroup="T1" minAge="21" unit="EA" containers="6" active="Y"/>
+    <Item code="089112007503" variant="000" description="Cabernet 750ml" dept="30" price="13.99" taxGroup="T1" minAge="21" unit="EA" containers="0" active="Y"/>
+    <Item code="089112007510" variant="000" description="Sauvignon Blanc 750ml" dept="30" price="12.99" taxGroup="T1" minAge="21" unit="EA" containers="0" active="Y"/>
+    <Item code="037000002017" variant="000" description="Paper Towels 2 Roll" dept="40" price="4.99" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="037000004042" variant="000" description="Toilet Paper 4 Roll" dept="40" price="5.49" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="037000006169" variant="000" description="Dish Soap 16oz" dept="40" price="3.79" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="037000008163" variant="000" description="Laundry Pods 16ct" dept="40" price="7.99" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="037000013204" variant="000" description="Trash Bags 13gal 20ct" dept="40" price="6.49" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="041333000046" variant="000" description="AA Batteries 4pk" dept="40" price="6.99" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="072000000502" variant="000" description="Aluminum Foil 50sqft" dept="40" price="4.29" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="300450000248" variant="000" description="Pain Reliever 24ct" dept="41" price="6.49" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="072140000011" variant="000" description="Lip Balm" dept="41" price="2.99" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="072140002022" variant="000" description="Hand Sanitizer 2oz" dept="41" price="1.99" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="035000004048" variant="000" description="Toothpaste 4oz" dept="41" price="3.99" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="381370000303" variant="000" description="Bandages 30ct" dept="41" price="4.49" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="300450001108" variant="000" description="Allergy Relief 10ct" dept="41" price="8.99" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000090012" variant="000" description="Paper Bag Fee" dept="50" price="0.10" taxGroup="T1" minAge="0" unit="EA" containers="0" active="Y"/>
+    <Item code="200000090029" variant="000" description="Bottle Deposit" dept="51" price="0.10" taxGroup="T0" minAge="0" unit="EA" containers="0" active="Y"/>
+  </Items>
+</PriceList>

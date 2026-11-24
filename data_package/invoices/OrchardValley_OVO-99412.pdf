@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Length 1899 >>
+stream
+BT
+/F1 9.5 Tf
+1 0 0 1 42 745 Tm (ORCHARD VALLEY ORGANICS WHOLESALE) Tj
+1 0 0 1 42 730 Tm (418 Harvest Way, Portland, OR 97209 | AP Billing: ap@orchardvalley.example) Tj
+1 0 0 1 42 715 Tm (--------------------------------------------------------------------------) Tj
+1 0 0 1 42 700 Tm (INVOICE #: OVO-99412                      INVOICE DATE: 2026-10-12) Tj
+1 0 0 1 42 685 Tm (BILL TO:   Brightleaf Market - Store BL01 DUE DATE:     2026-11-11) Tj
+1 0 0 1 42 670 Tm (--------------------------------------------------------------------------) Tj
+1 0 0 1 42 655 Tm (LN  SKU             DESCRIPTION                   QTY     COST     TOTAL) Tj
+1 0 0 1 42 640 Tm (--------------------------------------------------------------------------) Tj
+1 0 0 1 42 625 Tm (1   012000008177    Iced Tea Lemon 18.5oz           6    $1.54     $9.24) Tj
+1 0 0 1 42 610 Tm (2   016000275263    Granola Bar Oat Honey           9    $1.25    $11.25) Tj
+1 0 0 1 42 595 Tm (3   022000016348    Mint Gum 15pc                  12    $1.25    $15.00) Tj
+1 0 0 1 42 580 Tm (4   8841209         Organic Honeycrisp Cider        8    $4.50    $36.00) Tj
+1 0 0 1 42 565 Tm (5   8841215         Artisan Rosemary Focaccia      10    $3.10    $36.00) Tj
+1 0 0 1 42 550 Tm (--------------------------------------------------------------------------) Tj
+1 0 0 1 42 535 Tm (                                                    SUBTOTAL:    $107.49) Tj
+1 0 0 1 42 520 Tm (                                                         TAX:      $0.00) Tj
+1 0 0 1 42 505 Tm (                                     COLD-CHAIN DELIVERY FEE:      $7.50) Tj
+1 0 0 1 42 490 Tm (                                             TOTAL DUE \(USD\):    $114.99) Tj
+1 0 0 1 42 475 Tm (--------------------------------------------------------------------------) Tj
+1 0 0 1 42 460 Tm (RECEIVING NOTE: 1 outer carton crushed in transit; $4.50 credit pending.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2260
+%%EOF

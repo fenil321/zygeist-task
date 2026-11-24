@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EndOfDay formatVersion="2.1" storeId="BL01" businessDate="2026-10-03" closed="2026-10-03 21:06:24">
+  <Departments>
+    <Department code="10" name="Coffee &amp; Espresso" qty="103" amount="392.35"/>
+    <Department code="11" name="Tea &amp; Cold Drinks" qty="86" amount="266.04"/>
+    <Department code="12" name="Bakery" qty="38" amount="110.10"/>
+    <Department code="13" name="Sandwiches &amp; Prepared" qty="57" amount="435.55"/>
+    <Department code="20" name="Snacks &amp; Candy" qty="93" amount="284.67"/>
+    <Department code="21" name="Grocery" qty="90" amount="319.60"/>
+    <Department code="22" name="Dairy &amp; Eggs" qty="93" amount="402.97"/>
+    <Department code="23" name="Fresh Produce" qty="45.522" amount="58.22"/>
+    <Department code="30" name="Beer &amp; Wine" qty="10" amount="119.40"/>
+    <Department code="40" name="Household" qty="28" amount="162.92"/>
+    <Department code="41" name="Health &amp; Beauty" qty="28" amount="143.72"/>
+    <Department code="50" name="Bags &amp; Fees" qty="24" amount="2.40"/>
+    <Department code="51" name="Bottle Deposit" qty="67" amount="6.70"/>
+    <Department code="99" name="Open Department" qty="3" amount="6.75"/>
+  </Departments>
+  <Taxes>
+    <Tax group="T0" taxable="787.49" amount="0.00"/>
+    <Tax group="T1" taxable="884.35" amount="70.79"/>
+    <Tax group="T2" taxable="1039.55" amount="98.68"/>
+  </Taxes>
+  <Tenders>
+    <Tender type="ACCOUNT" count="1" amount="63.29"/>
+    <Tender type="CARD" count="133" amount="1570.58"/>
+    <Tender type="CASH" count="52" amount="825.00"/>
+    <Tender type="GIFT" count="8" amount="75.71"/>
+    <Tender type="MOBILE" count="43" amount="546.28"/>
+  </Tenders>
+  <GiftCards loadCount="3" loadAmount="200.00"/>
+  <CashDrops count="3" amount="450.00" cancelledCount="0"/>
+  <Exceptions lineVoids="9" lineVoidAmount="23.47" cancelledTransactions="1" cancelledAmount="14.62" refunds="2" refundAmount="-12.58" noSales="2"/>
+  <AccountCharges>
+    <Charge account="BA-0003" seq="100485" amount="63.29"/>
+  </AccountCharges>
+  <Totals transactions="235" netSales="2711.39" tax="169.47" giftCardLoads="200.00" grandTotal="3080.86"/>
+</EndOfDay>

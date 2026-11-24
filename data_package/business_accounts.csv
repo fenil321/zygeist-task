@@ -1,0 +1,7 @@
+account_id,business_name,home_store,credit_limit,terms,status
+BA-0001,Riverside Dental Clinic,BL01,500.00,NET30,ACTIVE
+BA-0002,Lakeport Realty Group,BL01,750.00,NET30,ACTIVE
+BA-0003,Northside Yoga Studio,BL01,300.00,NET15,ACTIVE
+BA-0004,Kim & Ortega Law Office,BL02,600.00,NET30,ACTIVE
+BA-0005,Old Town Bike Repair,BL02,250.00,NET15,ACTIVE
+BA-0006,Harbor View Architects,BL01,400.00,NET30,SUSPENDED

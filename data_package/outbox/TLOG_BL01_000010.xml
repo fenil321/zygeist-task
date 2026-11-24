@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransactionLog formatVersion="2.1" storeId="BL01" businessDate="2026-10-02" batchSeq="10" created="2026-10-02 13:00:33" recordCount="38">
+    <Transaction seq="100282" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 11:01:18" end="2026-10-02 11:02:19">
+      <GiftCardLine line="1" action="LOAD" cardLast4="4453" amount="25.00"/>
+      <Tender type="CASH" amount="25.00" tendered="25.00" change="0.00"/>
+      <Total net="0.00" tax="0.00" giftCardLoads="25.00" total="25.00"/>
+    </Transaction>
+    <Transaction seq="100283" type="SALE" status="COMPLETED" device="K1" staff="0" shift="1" start="2026-10-02 11:05:01" end="2026-10-02 11:07:00">
+      <ItemLine line="1" itemCode="200000001018" variant="001" desc="Drip Coffee 16oz" dept="10" qty="2" unitPrice="2.95" amount="5.90" taxGroup="T2"/>
+      <Tax group="T2" taxable="5.90" amount="0.56"/>
+      <Tender type="CARD" amount="6.46" cardType="MC" last4="5138" auth="497735"/>
+      <Total net="5.90" tax="0.56" giftCardLoads="0.00" total="6.46"/>
+    </Transaction>
+    <Transaction seq="100284" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 11:07:40" end="2026-10-02 11:09:28">
+      <ItemLine line="1" itemCode="070420003202" variant="000" desc="Greek Yogurt Plain 32oz" dept="22" qty="1" unitPrice="5.99" amount="5.99" taxGroup="T0"/>
+      <ItemLine line="2" itemCode="076808001013" variant="000" desc="Spaghetti 16oz" dept="21" qty="1" unitPrice="1.89" amount="1.89" taxGroup="T0"/>
+      <Tax group="T0" taxable="7.88" amount="0.00"/>
+      <Tender type="CASH" amount="7.88" tendered="7.88" change="0.00"/>
+      <Total net="7.88" tax="0.00" giftCardLoads="0.00" total="7.88"/>
+    </Transaction>
+    <Transaction seq="100285" type="SALE" status="COMPLETED" device="K2" staff="0" shift="1" start="2026-10-02 11:10:36" end="2026-10-02 11:12:28">
+      <ItemLine line="1" itemCode="200000003050" variant="000" desc="Soup of the Day 12oz" dept="13" qty="1" unitPrice="5.45" amount="5.45" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="200000001018" variant="000" desc="Drip Coffee 12oz" dept="10" qty="2" unitPrice="2.45" amount="4.90" taxGroup="T2"/>
+      <ItemLine line="3" itemCode="722240000151" variant="000" desc="Protein Bar Choc PB" dept="20" qty="1" unitPrice="2.99" amount="2.99" taxGroup="T1"/>
+      <Tax group="T1" taxable="2.99" amount="0.24"/>
+      <Tax group="T2" taxable="10.35" amount="0.98"/>
+      <Tender type="MOBILE" amount="14.56" wallet="GOOGLE_PAY"/>
+      <Total net="13.34" tax="1.22" giftCardLoads="0.00" total="14.56"/>
+    </Transaction>
+    <Transaction seq="100286" type="SALE" status="COMPLETED" device="K1" staff="0" shift="1" start="2026-10-02 11:13:40" end="2026-10-02 11:14:56">
+      <ItemLine line="1" itemCode="200000003074" variant="000" desc="Yogurt Parfait" dept="13" qty="1" unitPrice="4.95" amount="4.95" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="078672000642" variant="000" desc="Spring Water 1L" dept="11" qty="1" unitPrice="1.79" amount="1.79" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="070420001123" variant="000" desc="Large Eggs Dozen" dept="22" qty="1" unitPrice="4.29" amount="4.29" taxGroup="T0" status="VOID"/>
+      <ItemLine line="4" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="1" unitPrice="0.10" amount="0.10" taxGroup="T0"/>
+      <Tax group="T0" taxable="0.10" amount="0.00"/>
+      <Tax group="T1" taxable="1.79" amount="0.14"/>
+      <Tax group="T2" taxable="4.95" amount="0.47"/>
+      <Tender type="MOBILE" amount="7.45" wallet="GOOGLE_PAY"/>
+      <Total net="6.84" tax="0.61" giftCardLoads="0.00" total="7.45"/>
+    </Transaction>
+    <Transaction seq="100287" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 11:16:22" end="2026-10-02 11:17:50">
+      <ItemLine line="1" itemCode="200000003012" variant="000" desc="Turkey Club Sandwich" dept="13" qty="1" unitPrice="8.95" amount="8.95" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="012000008177" variant="000" desc="Iced Tea Lemon 18.5oz" dept="11" qty="1" unitPrice="2.49" amount="2.49" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="1" unitPrice="0.10" amount="0.10" taxGroup="T0"/>
+      <ItemLine line="4" itemCode="028400003070" variant="000" desc="Tortilla Chips 9oz" dept="20" qty="1" unitPrice="4.49" amount="4.49" taxGroup="T1"/>
+      <Tax group="T0" taxable="0.10" amount="0.00"/>
+      <Tax group="T1" taxable="6.98" amount="0.56"/>
+      <Tax group="T2" taxable="8.95" amount="0.85"/>
+      <Tender type="CASH" amount="17.44" tendered="17.44" change="0.00"/>
+      <Total net="16.03" tax="1.41" giftCardLoads="0.00" total="17.44"/>
+    </Transaction>
+    <Transaction seq="100288" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 11:22:06" end="2026-10-02 11:23:48">
+      <ItemLine line="1" itemCode="200000040871" variant="000" desc="Roma Tomatoes per lb" dept="23" qty="1.796" unitPrice="1.79" amount="3.21" taxGroup="T0"/>
+      <ItemLine line="2" itemCode="070420005169" variant="000" desc="Butter Salted 1lb" dept="22" qty="1" unitPrice="5.29" amount="5.29" taxGroup="T0"/>
+      <ItemLine line="3" itemCode="070420000652" variant="000" desc="2% Milk Half Gallon" dept="22" qty="1" unitPrice="3.39" amount="3.39" taxGroup="T0"/>
+      <ItemLine line="4" itemCode="200000090012" variant="000" desc="Paper Bag Fee" dept="50" qty="1" unitPrice="0.10" amount="0.10" taxGroup="T1"/>
+      <Tax group="T0" taxable="11.89" amount="0.00"/>
+      <Tax group="T1" taxable="0.10" amount="0.01"/>
+      <Tender type="MOBILE" amount="12.00" wallet="GOOGLE_PAY"/>
+      <Total net="11.99" tax="0.01" giftCardLoads="0.00" total="12.00"/>
+    </Transaction>
+    <Transaction seq="100289" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 11:40:25" end="2026-10-02 11:41:09">
+      <ItemLine line="1" itemCode="200000003029" variant="000" desc="Veggie Wrap" dept="13" qty="1" unitPrice="7.95" amount="7.95" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="049000000443" variant="000" desc="Cola 20oz" dept="11" qty="2" unitPrice="2.29" amount="4.58" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="2" unitPrice="0.10" amount="0.20" taxGroup="T0"/>
+      <Tax group="T0" taxable="0.20" amount="0.00"/>
+      <Tax group="T1" taxable="4.58" amount="0.37"/>
+      <Tax group="T2" taxable="7.95" amount="0.76"/>
+      <Tender type="CASH" amount="13.86" tendered="15.00" change="1.14"/>
+      <Total net="12.73" tax="1.13" giftCardLoads="0.00" total="13.86"/>
+    </Transaction>
+    <Transaction seq="100290" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 11:40:54" end="2026-10-02 11:43:12">
+      <ItemLine line="1" itemCode="200000003029" variant="000" desc="Veggie Wrap" dept="13" qty="1" unitPrice="7.95" amount="7.95" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="078672000642" variant="000" desc="Spring Water 1L" dept="11" qty="1" unitPrice="1.79" amount="1.79" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="1" unitPrice="0.10" amount="0.10" taxGroup="T0"/>
+      <Tax group="T0" taxable="0.10" amount="0.00"/>
+      <Tax group="T1" taxable="1.79" amount="0.14"/>
+      <Tax group="T2" taxable="7.95" amount="0.76"/>
+      <Tender type="CASH" amount="10.74" tendered="10.74" change="0.00"/>
+      <Total net="9.84" tax="0.90" giftCardLoads="0.00" total="10.74"/>
+    </Transaction>
+    <Transaction seq="100291" type="SALE" status="COMPLETED" device="K1" staff="0" shift="1" start="2026-10-02 11:41:18" end="2026-10-02 11:43:16">
+      <ItemLine line="1" itemCode="200000001032" variant="000" desc="Cappuccino 12oz" dept="10" qty="1" unitPrice="4.15" amount="4.15" taxGroup="T2"/>
+      <Tax group="T2" taxable="4.15" amount="0.39"/>
+      <Tender type="CARD" amount="4.54" cardType="VISA" last4="3732" auth="430549"/>
+      <Total net="4.15" tax="0.39" giftCardLoads="0.00" total="4.54"/>
+    </Transaction>
+    <Transaction seq="100292" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 11:51:05" end="2026-10-02 11:51:47">
+      <ItemLine line="1" itemCode="200000003074" variant="000" desc="Yogurt Parfait" dept="13" qty="1" unitPrice="4.95" amount="4.95" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="049000000634" variant="000" desc="Diet Cola 20oz" dept="11" qty="2" unitPrice="2.29" amount="4.58" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="2" unitPrice="0.10" amount="0.20" taxGroup="T0"/>
+      <Tax group="T0" taxable="0.20" amount="0.00"/>
+      <Tax group="T1" taxable="4.58" amount="0.37"/>
+      <Tax group="T2" taxable="4.95" amount="0.47"/>
+      <Tender type="CARD" amount="10.57" cardType="AMEX" last4="3075" auth="659954"/>
+      <Total net="9.73" tax="0.84" giftCardLoads="0.00" total="10.57"/>
+    </Transaction>
+    <Transaction seq="100293" type="SALE" status="COMPLETED" device="K1" staff="0" shift="1" start="2026-10-02 11:54:46" end="2026-10-02 11:56:32">
+      <ItemLine line="1" itemCode="200000001032" variant="000" desc="Cappuccino 12oz" dept="10" qty="1" unitPrice="4.15" amount="4.15" taxGroup="T2"/>
+      <Tax group="T2" taxable="4.15" amount="0.39"/>
+      <Tender type="CARD" amount="4.54" cardType="MC" last4="0332" auth="798413"/>
+      <Total net="4.15" tax="0.39" giftCardLoads="0.00" total="4.54"/>
+    </Transaction>
+    <Transaction seq="100294" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 11:55:04" end="2026-10-02 11:56:06">
+      <ItemLine line="1" itemCode="200000001506" variant="000" desc="Pumpkin Spice Latte" dept="10" qty="1" unitPrice="5.25" amount="5.25" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="200000002060" variant="000" desc="Plain Bagel" dept="12" qty="1" unitPrice="1.95" amount="1.95" taxGroup="T2"/>
+      <Tax group="T2" taxable="7.20" amount="0.68"/>
+      <Tender type="MOBILE" amount="7.88" wallet="APPLE_PAY"/>
+      <Total net="7.20" tax="0.68" giftCardLoads="0.00" total="7.88"/>
+    </Transaction>
+    <Transaction seq="100295" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 11:56:46" end="2026-10-02 11:57:15">
+      <ItemLine line="1" itemCode="070420004087" variant="000" desc="Cheddar Block 8oz" dept="22" qty="1" unitPrice="4.49" amount="4.49" taxGroup="T0"/>
+      <ItemLine line="2" itemCode="070420003202" variant="000" desc="Greek Yogurt Plain 32oz" dept="22" qty="1" unitPrice="5.99" amount="5.99" taxGroup="T0"/>
+      <ItemLine line="3" itemCode="051500042106" variant="000" desc="Honey 12oz" dept="21" qty="1" unitPrice="6.49" amount="6.49" taxGroup="T0"/>
+      <ItemLine line="4" itemCode="200000090012" variant="000" desc="Paper Bag Fee" dept="50" qty="2" unitPrice="0.10" amount="0.20" taxGroup="T1"/>
+      <Tax group="T0" taxable="16.97" amount="0.00"/>
+      <Tax group="T1" taxable="0.20" amount="0.02"/>
+      <Tender type="CARD" amount="17.19" cardType="VISA" last4="6695" auth="751381"/>
+      <Total net="17.17" tax="0.02" giftCardLoads="0.00" total="17.19"/>
+    </Transaction>
+    <Transaction seq="100296" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 12:00:21" end="2026-10-02 12:01:35">
+      <ItemLine line="1" itemCode="072000000502" variant="000" desc="Aluminum Foil 50sqft" dept="40" qty="1" unitPrice="4.29" amount="4.29" taxGroup="T1"/>
+      <ItemLine line="2" itemCode="200000090012" variant="000" desc="Paper Bag Fee" dept="50" qty="2" unitPrice="0.10" amount="0.20" taxGroup="T1"/>
+      <Tax group="T1" taxable="4.49" amount="0.36"/>
+      <Tender type="MOBILE" amount="4.85" wallet="GOOGLE_PAY"/>
+      <Total net="4.49" tax="0.36" giftCardLoads="0.00" total="4.85"/>
+    </Transaction>
+    <Transaction seq="100297" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 12:01:33" end="2026-10-02 12:02:31">
+      <ItemLine line="1" itemCode="200000003029" variant="000" desc="Veggie Wrap" dept="13" qty="1" unitPrice="7.95" amount="7.95" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="012000008177" variant="000" desc="Iced Tea Lemon 18.5oz" dept="11" qty="1" unitPrice="2.49" amount="2.49" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="1" unitPrice="0.10" amount="0.10" taxGroup="T0"/>
+      <Tax group="T0" taxable="0.10" amount="0.00"/>
+      <Tax group="T1" taxable="2.49" amount="0.20"/>
+      <Tax group="T2" taxable="7.95" amount="0.76"/>
+      <Tender type="CARD" amount="11.50" cardType="MC" last4="5479" auth="198833"/>
+      <Total net="10.54" tax="0.96" giftCardLoads="0.00" total="11.50"/>
+    </Transaction>
+    <Transaction seq="100298" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 12:04:02" end="2026-10-02 12:04:22">
+      <ItemLine line="1" itemCode="200000003050" variant="000" desc="Soup of the Day 12oz" dept="13" qty="1" unitPrice="5.45" amount="5.45" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="049000000443" variant="000" desc="Cola 20oz" dept="11" qty="1" unitPrice="2.29" amount="2.29" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="1" unitPrice="0.10" amount="0.10" taxGroup="T0"/>
+      <ItemLine line="4" itemCode="034000000241" variant="000" desc="Milk Choc Bar 1.5oz" dept="20" qty="1" unitPrice="1.89" amount="1.89" taxGroup="T1"/>
+      <Tax group="T0" taxable="0.10" amount="0.00"/>
+      <Tax group="T1" taxable="4.18" amount="0.33"/>
+      <Tax group="T2" taxable="5.45" amount="0.52"/>
+      <Tender type="CARD" amount="10.58" cardType="DEBIT" last4="2368" auth="253306"/>
+      <Total net="9.73" tax="0.85" giftCardLoads="0.00" total="10.58"/>
+    </Transaction>
+    <Transaction seq="100299" type="SALE" status="COMPLETED" device="K1" staff="0" shift="1" start="2026-10-02 12:05:02" end="2026-10-02 12:05:25">
+      <ItemLine line="1" itemCode="200000003050" variant="000" desc="Soup of the Day 12oz" dept="13" qty="1" unitPrice="5.45" amount="5.45" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="085612000303" variant="000" desc="Kombucha Ginger 16oz" dept="11" qty="2" unitPrice="3.99" amount="7.98" taxGroup="T1"/>
+      <Tax group="T1" taxable="7.98" amount="0.64"/>
+      <Tax group="T2" taxable="5.45" amount="0.52"/>
+      <Tender type="CARD" amount="14.59" cardType="DEBIT" last4="7960" auth="222757"/>
+      <Total net="13.43" tax="1.16" giftCardLoads="0.00" total="14.59"/>
+    </Transaction>
+    <Transaction seq="100300" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 12:07:59" end="2026-10-02 12:09:29">
+      <ItemLine line="1" itemCode="381370000303" variant="000" desc="Bandages 30ct" dept="41" qty="1" unitPrice="4.49" amount="4.49" taxGroup="T1"/>
+      <ItemLine line="2" itemCode="072140000011" variant="000" desc="Lip Balm" dept="41" qty="2" unitPrice="2.99" amount="5.98" taxGroup="T1"/>
+      <Tax group="T1" taxable="10.47" amount="0.84"/>
+      <Tender type="CARD" amount="11.31" cardType="DEBIT" last4="1785" auth="140307"/>
+      <Total net="10.47" tax="0.84" giftCardLoads="0.00" total="11.31"/>
+    </Transaction>
+    <Transaction seq="100301" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 12:08:35" end="2026-10-02 12:09:10">
+      <ItemLine line="1" itemCode="200000003043" variant="000" desc="Caesar Salad Bowl" dept="13" qty="1" unitPrice="9.25" amount="9.25" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="200000001018" variant="000" desc="Drip Coffee 12oz" dept="10" qty="1" unitPrice="2.45" amount="2.45" taxGroup="T2"/>
+      <ItemLine line="3" itemCode="028400000123" variant="000" desc="Chips BBQ 2oz" dept="20" qty="1" unitPrice="1.99" amount="1.99" taxGroup="T1"/>
+      <Tax group="T1" taxable="1.99" amount="0.16"/>
+      <Tax group="T2" taxable="11.70" amount="1.11"/>
+      <Tender type="CARD" amount="14.96" cardType="AMEX" last4="9554" auth="963708"/>
+      <Total net="13.69" tax="1.27" giftCardLoads="0.00" total="14.96"/>
+    </Transaction>
+    <Transaction seq="100302" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 12:13:20" end="2026-10-02 12:13:40">
+      <ItemLine line="1" itemCode="037000002017" variant="000" desc="Paper Towels 2 Roll" dept="40" qty="1" unitPrice="4.99" amount="4.99" taxGroup="T1"/>
+      <ItemLine line="2" itemCode="200000090012" variant="000" desc="Paper Bag Fee" dept="50" qty="2" unitPrice="0.10" amount="0.20" taxGroup="T1"/>
+      <Tax group="T1" taxable="5.19" amount="0.42"/>
+      <Tender type="GIFT" amount="5.61" cardLast4="4448"/>
+      <Total net="5.19" tax="0.42" giftCardLoads="0.00" total="5.61"/>
+    </Transaction>
+    <Transaction seq="100303" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 12:15:00" end="2026-10-02 12:17:28">
+      <ItemLine line="1" itemCode="200000003029" variant="000" desc="Veggie Wrap" dept="13" qty="1" unitPrice="7.95" amount="7.95" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="049000000443" variant="000" desc="Cola 20oz" dept="11" qty="1" unitPrice="2.29" amount="2.29" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="1" unitPrice="0.10" amount="0.10" taxGroup="T0"/>
+      <Tax group="T0" taxable="0.10" amount="0.00"/>
+      <Tax group="T1" taxable="2.29" amount="0.18"/>
+      <Tax group="T2" taxable="7.95" amount="0.76"/>
+      <Tender type="CASH" amount="11.28" tendered="12.00" change="0.72"/>
+      <Total net="10.34" tax="0.94" giftCardLoads="0.00" total="11.28"/>
+    </Transaction>
+    <Transaction seq="100304" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 12:15:25" end="2026-10-02 12:17:17">
+      <ItemLine line="1" itemCode="035000004048" variant="000" desc="Toothpaste 4oz" dept="41" qty="1" unitPrice="3.99" amount="3.99" taxGroup="T1"/>
+      <ItemLine line="2" itemCode="200000090012" variant="000" desc="Paper Bag Fee" dept="50" qty="2" unitPrice="0.10" amount="0.20" taxGroup="T1"/>
+      <Tax group="T1" taxable="4.19" amount="0.34"/>
+      <Tender type="CARD" amount="4.53" cardType="DEBIT" last4="3990" auth="719458"/>
+      <Total net="4.19" tax="0.34" giftCardLoads="0.00" total="4.53"/>
+    </Transaction>
+    <Transaction seq="100305" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 12:21:26" end="2026-10-02 12:23:00">
+      <ItemLine line="1" itemCode="200000003067" variant="000" desc="Breakfast Burrito" dept="13" qty="1" unitPrice="6.95" amount="6.95" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="070847000013" variant="000" desc="Energy Drink 16oz" dept="11" qty="1" unitPrice="3.29" amount="3.29" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="1" unitPrice="0.10" amount="0.10" taxGroup="T0"/>
+      <ItemLine line="4" itemCode="077975001189" variant="000" desc="Pretzel Twists 8oz" dept="20" qty="1" unitPrice="3.29" amount="3.29" taxGroup="T1"/>
+      <Tax group="T0" taxable="0.10" amount="0.00"/>
+      <Tax group="T1" taxable="6.58" amount="0.53"/>
+      <Tax group="T2" taxable="6.95" amount="0.66"/>
+      <Tender type="CARD" amount="14.82" cardType="MC" last4="9716" auth="769635"/>
+      <Total net="13.63" tax="1.19" giftCardLoads="0.00" total="14.82"/>
+    </Transaction>
+    <Transaction seq="100306" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 12:22:51" end="2026-10-02 12:24:04">
+      <ItemLine line="1" itemCode="084656002168" variant="000" desc="Popcorn White Cheddar" dept="20" qty="1" unitPrice="3.49" amount="3.49" taxGroup="T1"/>
+      <ItemLine line="2" itemCode="070847000013" variant="000" desc="Energy Drink 16oz" dept="11" qty="1" unitPrice="3.29" amount="3.29" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="1" unitPrice="0.10" amount="0.10" taxGroup="T0"/>
+      <Tax group="T0" taxable="0.10" amount="0.00"/>
+      <Tax group="T1" taxable="6.78" amount="0.54"/>
+      <Tender type="CARD" amount="7.42" cardType="MC" last4="9509" auth="963611"/>
+      <Total net="6.88" tax="0.54" giftCardLoads="0.00" total="7.42"/>
+    </Transaction>
+    <Transaction seq="100307" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 12:23:39" end="2026-10-02 12:24:32">
+      <ItemLine line="1" itemCode="200000003074" variant="000" desc="Yogurt Parfait" dept="13" qty="3" unitPrice="4.95" amount="14.85" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="049000000443" variant="000" desc="Cola 20oz" dept="11" qty="3" unitPrice="2.29" amount="6.87" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="3" unitPrice="0.10" amount="0.30" taxGroup="T0"/>
+      <Tax group="T0" taxable="0.30" amount="0.00"/>
+      <Tax group="T1" taxable="6.87" amount="0.55"/>
+      <Tax group="T2" taxable="14.85" amount="1.41"/>
+      <Tender type="CASH" amount="23.98" tendered="24.00" change="0.02"/>
+      <Total net="22.02" tax="1.96" giftCardLoads="0.00" total="23.98"/>
+    </Transaction>
+    <Transaction seq="100308" type="CASH_DROP" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 12:26:45" end="2026-10-02 12:28:34">
+      <CashDrop envelope="1" amount="150.00" status="OK"/>
+    </Transaction>
+    <Transaction seq="100309" type="SALE" status="COMPLETED" device="K1" staff="0" shift="1" start="2026-10-02 12:31:39" end="2026-10-02 12:34:08">
+      <ItemLine line="1" itemCode="200000003012" variant="000" desc="Turkey Club Sandwich" dept="13" qty="2" unitPrice="8.95" amount="17.90" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="200000001018" variant="001" desc="Drip Coffee 16oz" dept="10" qty="1" unitPrice="2.95" amount="2.95" taxGroup="T2"/>
+      <Tax group="T2" taxable="20.85" amount="1.98"/>
+      <Tender type="CARD" amount="22.83" cardType="VISA" last4="4159" auth="158545"/>
+      <Total net="20.85" tax="1.98" giftCardLoads="0.00" total="22.83"/>
+    </Transaction>
+    <Transaction seq="100310" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 12:35:04" end="2026-10-02 12:37:09">
+      <ItemLine line="1" itemCode="200000003012" variant="000" desc="Turkey Club Sandwich" dept="13" qty="1" unitPrice="8.95" amount="8.95" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="070847000013" variant="000" desc="Energy Drink 16oz" dept="11" qty="2" unitPrice="3.29" amount="6.58" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="2" unitPrice="0.10" amount="0.20" taxGroup="T0"/>
+      <ItemLine line="4" itemCode="085048001431" variant="000" desc="Dark Choc Sea Salt 3oz" dept="20" qty="1" unitPrice="3.49" amount="3.49" taxGroup="T1"/>
+      <Tax group="T0" taxable="0.20" amount="0.00"/>
+      <Tax group="T1" taxable="10.07" amount="0.81"/>
+      <Tax group="T2" taxable="8.95" amount="0.85"/>
+      <Tender type="MOBILE" amount="20.88" wallet="GOOGLE_PAY"/>
+      <Total net="19.22" tax="1.66" giftCardLoads="0.00" total="20.88"/>
+    </Transaction>
+    <Transaction seq="100311" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 12:36:42" end="2026-10-02 12:38:29">
+      <ItemLine line="1" itemCode="080660001012" variant="000" desc="Pale Ale 6pk 12oz" dept="30" qty="1" unitPrice="10.99" amount="10.99" taxGroup="T1"/>
+      <ItemLine line="2" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="6" unitPrice="0.10" amount="0.60" taxGroup="T0"/>
+      <ItemLine line="3" itemCode="077975001189" variant="000" desc="Pretzel Twists 8oz" dept="20" qty="1" unitPrice="3.29" amount="3.29" taxGroup="T1"/>
+      <Tax group="T0" taxable="0.60" amount="0.00"/>
+      <Tax group="T1" taxable="14.28" amount="1.14"/>
+      <Tender type="CASH" amount="16.02" tendered="20.00" change="3.98"/>
+      <Total net="14.88" tax="1.14" giftCardLoads="0.00" total="16.02"/>
+    </Transaction>
+    <Transaction seq="100312" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 12:37:38" end="2026-10-02 12:39:49">
+      <ItemLine line="1" itemCode="200000003043" variant="000" desc="Caesar Salad Bowl" dept="13" qty="2" unitPrice="9.25" amount="18.50" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="085123400111" variant="000" desc="Sparkling Water 500ml" dept="11" qty="1" unitPrice="1.99" amount="1.99" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="1" unitPrice="0.10" amount="0.10" taxGroup="T0"/>
+      <ItemLine line="4" itemCode="084656002168" variant="000" desc="Popcorn White Cheddar" dept="20" qty="1" unitPrice="3.49" amount="3.49" taxGroup="T1"/>
+      <Tax group="T0" taxable="0.10" amount="0.00"/>
+      <Tax group="T1" taxable="5.48" amount="0.44"/>
+      <Tax group="T2" taxable="18.50" amount="1.76"/>
+      <Tender type="MOBILE" amount="26.28" wallet="APPLE_PAY"/>
+      <Total net="24.08" tax="2.20" giftCardLoads="0.00" total="26.28"/>
+    </Transaction>
+    <Transaction seq="100313" type="SALE" status="COMPLETED" device="K2" staff="0" shift="1" start="2026-10-02 12:40:47" end="2026-10-02 12:41:53">
+      <ItemLine line="1" itemCode="042000012157" variant="000" desc="Gummy Bears 5oz" dept="20" qty="3" unitPrice="2.99" amount="8.97" taxGroup="T1"/>
+      <ItemLine line="2" itemCode="048500010723" variant="000" desc="Orange Juice 12oz" dept="11" qty="1" unitPrice="3.49" amount="3.49" taxGroup="T1"/>
+      <Tax group="T1" taxable="12.46" amount="1.00"/>
+      <Tender type="CARD" amount="13.46" cardType="MC" last4="2609" auth="818522"/>
+      <Total net="12.46" tax="1.00" giftCardLoads="0.00" total="13.46"/>
+    </Transaction>
+    <Transaction seq="100314" type="SALE" status="COMPLETED" device="K1" staff="0" shift="1" start="2026-10-02 12:42:35" end="2026-10-02 12:44:37">
+      <ItemLine line="1" itemCode="200000003012" variant="000" desc="Turkey Club Sandwich" dept="13" qty="1" unitPrice="8.95" amount="8.95" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="070847000013" variant="000" desc="Energy Drink 16oz" dept="11" qty="1" unitPrice="3.29" amount="3.29" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="1" unitPrice="0.10" amount="0.10" taxGroup="T0"/>
+      <ItemLine line="4" itemCode="042000012157" variant="000" desc="Gummy Bears 5oz" dept="20" qty="1" unitPrice="2.99" amount="2.99" taxGroup="T1"/>
+      <Tax group="T0" taxable="0.10" amount="0.00"/>
+      <Tax group="T1" taxable="6.28" amount="0.50"/>
+      <Tax group="T2" taxable="8.95" amount="0.85"/>
+      <Tender type="CARD" amount="16.68" cardType="MC" last4="8155" auth="844351"/>
+      <Total net="15.33" tax="1.35" giftCardLoads="0.00" total="16.68"/>
+    </Transaction>
+    <Transaction seq="100315" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 12:43:54" end="2026-10-02 12:46:02">
+      <ItemLine line="1" itemCode="200000003029" variant="000" desc="Veggie Wrap" dept="13" qty="1" unitPrice="7.95" amount="7.95" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="048500010723" variant="000" desc="Orange Juice 12oz" dept="11" qty="1" unitPrice="3.49" amount="3.49" taxGroup="T1"/>
+      <Tax group="T1" taxable="3.49" amount="0.28"/>
+      <Tax group="T2" taxable="7.95" amount="0.76"/>
+      <Tender type="MOBILE" amount="12.48" wallet="GOOGLE_PAY"/>
+      <Total net="11.44" tax="1.04" giftCardLoads="0.00" total="12.48"/>
+    </Transaction>
+    <Transaction seq="100316" type="SALE" status="COMPLETED" device="R2" staff="202" shift="1" start="2026-10-02 12:47:37" end="2026-10-02 12:48:24">
+      <ItemLine line="1" itemCode="200000003036" variant="000" desc="Ham &amp; Cheese Panini" dept="13" qty="2" unitPrice="8.45" amount="16.90" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="085123400111" variant="000" desc="Sparkling Water 500ml" dept="11" qty="1" unitPrice="1.99" amount="1.99" taxGroup="T1"/>
+      <ItemLine line="3" itemCode="200000090029" variant="000" desc="Bottle Deposit" dept="51" qty="1" unitPrice="0.10" amount="0.10" taxGroup="T0"/>
+      <Tax group="T0" taxable="0.10" amount="0.00"/>
+      <Tax group="T1" taxable="1.99" amount="0.16"/>
+      <Tax group="T2" taxable="16.90" amount="1.61"/>
+      <Tender type="MOBILE" amount="20.76" wallet="APPLE_PAY"/>
+      <Total net="18.99" tax="1.77" giftCardLoads="0.00" total="20.76"/>
+    </Transaction>
+    <Transaction seq="100317" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 12:47:46" end="2026-10-02 12:49:26">
+      <ItemLine line="1" itemCode="200000003029" variant="000" desc="Veggie Wrap" dept="13" qty="1" unitPrice="7.95" amount="7.95" taxGroup="T2"/>
+      <ItemLine line="2" itemCode="200000003036" variant="000" desc="Ham &amp; Cheese Panini" dept="13" qty="1" unitPrice="8.45" amount="8.45" taxGroup="T2"/>
+      <ItemLine line="3" itemCode="200000003067" variant="000" desc="Breakfast Burrito" dept="13" qty="1" unitPrice="6.95" amount="6.95" taxGroup="T2"/>
+      <ItemLine line="4" itemCode="200000003067" variant="000" desc="Breakfast Burrito" dept="13" qty="1" unitPrice="6.95" amount="6.95" taxGroup="T2"/>
+      <ItemLine line="5" itemCode="200000003050" variant="000" desc="Soup of the Day 12oz" dept="13" qty="2" unitPrice="5.45" amount="10.90" taxGroup="T2"/>
+      <ItemLine line="6" itemCode="200000003029" variant="000" desc="Veggie Wrap" dept="13" qty="1" unitPrice="7.95" amount="7.95" taxGroup="T2"/>
+      <ItemLine line="7" itemCode="200000001513" variant="000" desc="Hot Apple Cider 12oz" dept="11" qty="1" unitPrice="3.75" amount="3.75" taxGroup="T2"/>
+      <ItemLine line="8" itemCode="200000001025" variant="001" desc="Latte 16oz" dept="10" qty="1" unitPrice="4.95" amount="4.95" taxGroup="T2"/>
+      <ItemLine line="9" itemCode="200000001018" variant="000" desc="Drip Coffee 12oz" dept="10" qty="1" unitPrice="2.45" amount="2.45" taxGroup="T2"/>
+      <Tax group="T2" taxable="60.30" amount="5.73"/>
+      <Tender type="ACCOUNT" amount="66.03" account="BA-0003"/>
+      <Total net="60.30" tax="5.73" giftCardLoads="0.00" total="66.03"/>
+    </Transaction>
+    <Transaction seq="100318" type="SALE" status="COMPLETED" device="R1" staff="201" shift="1" start="2026-10-02 12:57:19" end="2026-10-02 12:59:26">
+      <ItemLine line="1" itemCode="200000001025" variant="001" desc="Latte 16oz" dept="10" qty="1" unitPrice="4.95" amount="4.95" taxGroup="T2"/>
+      <Tax group="T2" taxable="4.95" amount="0.47"/>
+      <Tender type="CARD" amount="5.42" cardType="MC" last4="4782" auth="383658"/>
+      <Total net="4.95" tax="0.47" giftCardLoads="0.00" total="5.42"/>
+    </Transaction>
+    <Transaction seq="100319" type="SALE" status="COMPLETED" device="K1" staff="0" shift="1" start="2026-10-02 12:58:08" end="2026-10-02 13:00:11">
+      <ItemLine line="1" itemCode="200000001056" variant="000" desc="Cold Brew 16oz" dept="10" qty="1" unitPrice="4.45" amount="4.45" taxGroup="T2"/>
+      <Tax group="T2" taxable="4.45" amount="0.42"/>
+      <Tender type="CARD" amount="4.87" cardType="MC" last4="7147" auth="183536"/>
+      <Total net="4.45" tax="0.42" giftCardLoads="0.00" total="4.87"/>
+    </Transaction>
+</TransactionLog>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EndOfDay formatVersion="2.1" storeId="BL02" businessDate="2026-10-06" closed="2026-10-06 21:06:22">
+  <Departments>
+    <Department code="10" name="Coffee &amp; Espresso" qty="59" amount="230.95"/>
+    <Department code="11" name="Tea &amp; Cold Drinks" qty="49" amount="145.89"/>
+    <Department code="12" name="Bakery" qty="29" amount="79.35"/>
+    <Department code="13" name="Sandwiches &amp; Prepared" qty="35" amount="261.55"/>
+    <Department code="20" name="Snacks &amp; Candy" qty="38" amount="100.62"/>
+    <Department code="21" name="Grocery" qty="57" amount="221.03"/>
+    <Department code="22" name="Dairy &amp; Eggs" qty="64" amount="271.76"/>
+    <Department code="23" name="Fresh Produce" qty="31.688" amount="45.92"/>
+    <Department code="30" name="Beer &amp; Wine" qty="12" amount="152.88"/>
+    <Department code="40" name="Household" qty="11" amount="66.59"/>
+    <Department code="41" name="Health &amp; Beauty" qty="8" amount="39.42"/>
+    <Department code="50" name="Bags &amp; Fees" qty="12" amount="1.20"/>
+    <Department code="51" name="Bottle Deposit" qty="64" amount="6.40"/>
+    <Department code="77" name="DEPT 77" qty="3" amount="12.75"/>
+    <Department code="99" name="Open Department" qty="1" amount="1.50"/>
+  </Departments>
+  <Taxes>
+    <Tax group="T0" taxable="545.11" amount="0.00"/>
+    <Tax group="T1" taxable="470.30" amount="37.64"/>
+    <Tax group="T2" taxable="622.40" amount="59.13"/>
+  </Taxes>
+  <Tenders>
+    <Tender type="CARD" count="78" amount="936.66"/>
+    <Tender type="CASH" count="22" amount="401.16"/>
+    <Tender type="GIFT" count="6" amount="53.79"/>
+    <Tender type="MOBILE" count="27" amount="392.97"/>
+  </Tenders>
+  <GiftCards loadCount="1" loadAmount="50.00"/>
+  <CashDrops count="2" amount="300.00" cancelledCount="0"/>
+  <Exceptions lineVoids="7" lineVoidAmount="19.99" cancelledTransactions="0" cancelledAmount="0.00" refunds="1" refundAmount="-4.76" noSales="1"/>
+  <Totals transactions="131" netSales="1637.81" tax="96.77" giftCardLoads="50.00" grandTotal="1784.58"/>
+</EndOfDay>

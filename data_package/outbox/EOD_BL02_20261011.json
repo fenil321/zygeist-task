@@ -1,0 +1,162 @@
+{
+  "schema": "endofday/3.0",
+  "store": "BL02",
+  "businessDay": "2026-10-11",
+  "closedAt": "2026-10-11T21:06:07-07:00",
+  "departments": [
+    {
+      "department": "010",
+      "name": "Coffee & Espresso",
+      "quantity": "68",
+      "amountMinor": 26420
+    },
+    {
+      "department": "011",
+      "name": "Tea & Cold Drinks",
+      "quantity": "51",
+      "amountMinor": 15153
+    },
+    {
+      "department": "012",
+      "name": "Bakery",
+      "quantity": "23",
+      "amountMinor": 6825
+    },
+    {
+      "department": "013",
+      "name": "Sandwiches & Prepared",
+      "quantity": "47",
+      "amountMinor": 34925
+    },
+    {
+      "department": "020",
+      "name": "Snacks & Candy",
+      "quantity": "48",
+      "amountMinor": 13912
+    },
+    {
+      "department": "021",
+      "name": "Grocery",
+      "quantity": "59",
+      "amountMinor": 21001
+    },
+    {
+      "department": "022",
+      "name": "Dairy & Eggs",
+      "quantity": "49",
+      "amountMinor": 21441
+    },
+    {
+      "department": "023",
+      "name": "Fresh Produce",
+      "quantity": "34.861",
+      "amountMinor": 5033
+    },
+    {
+      "department": "030",
+      "name": "Beer & Wine",
+      "quantity": "15",
+      "amountMinor": 17585
+    },
+    {
+      "department": "040",
+      "name": "Household",
+      "quantity": "19",
+      "amountMinor": 9961
+    },
+    {
+      "department": "041",
+      "name": "Health & Beauty",
+      "quantity": "7",
+      "amountMinor": 3743
+    },
+    {
+      "department": "050",
+      "name": "Bags & Fees",
+      "quantity": "11",
+      "amountMinor": 110
+    },
+    {
+      "department": "051",
+      "name": "Bottle Deposit",
+      "quantity": "83",
+      "amountMinor": 830
+    }
+  ],
+  "taxes": [
+    {
+      "code": "T0",
+      "taxableMinor": 48305,
+      "taxMinor": 0
+    },
+    {
+      "code": "T1",
+      "taxableMinor": 56729,
+      "taxMinor": 4542
+    },
+    {
+      "code": "T2",
+      "taxableMinor": 71905,
+      "taxMinor": 6832
+    }
+  ],
+  "payments": [
+    {
+      "method": "account",
+      "count": 1,
+      "amountMinor": 4988
+    },
+    {
+      "method": "card",
+      "count": 78,
+      "amountMinor": 103654
+    },
+    {
+      "method": "cash",
+      "count": 36,
+      "amountMinor": 53639
+    },
+    {
+      "method": "gift",
+      "count": 4,
+      "amountMinor": 4441
+    },
+    {
+      "method": "mobile",
+      "count": 35,
+      "amountMinor": 39091
+    }
+  ],
+  "giftCards": {
+    "loads": 3,
+    "loadAmountMinor": 17500
+  },
+  "cashDrops": {
+    "count": 3,
+    "amountMinor": 45000,
+    "cancelled": 0
+  },
+  "exceptions": {
+    "lineVoids": 7,
+    "lineVoidAmountMinor": 2165,
+    "cancelledTransactions": 1,
+    "cancelledAmountMinor": 2825,
+    "refunds": 1,
+    "refundAmountMinor": -387,
+    "noSales": 3
+  },
+  "accountCharges": [
+    {
+      "accountId": "BA-0005",
+      "sequenceNo": 501496,
+      "amountMinor": 4988
+    }
+  ],
+  "totals": {
+    "transactions": 152,
+    "netMinor": 176939,
+    "taxMinor": 11374,
+    "giftCardLoadsMinor": 17500,
+    "grandMinor": 205813
+  }
+}
